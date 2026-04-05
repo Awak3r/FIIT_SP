@@ -1,0 +1,4105 @@
+
+---
+events:
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineSystem.cmake:12 (find_program)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_UNAME"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "uname"
+    candidate_directories:
+      - "/home/bogdanoff/.pyenv/shims/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+    searched_directories:
+      - "/home/bogdanoff/.pyenv/shims/uname"
+      - "/usr/local/bin/uname"
+    found: "/usr/bin/uname"
+    search_context:
+      ENV{PATH}:
+        - "/home/bogdanoff/.pyenv/shims"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/local/sbin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineSystem.cmake:212 (message)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      The system is: Linux - 6.19.8-arch1-1 - x86_64
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeUnixFindMake.cmake:5 (find_program)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_MAKE_PROGRAM"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "gmake"
+      - "make"
+      - "smake"
+    candidate_directories:
+      - "/home/bogdanoff/.pyenv/shims/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+    searched_directories:
+      - "/home/bogdanoff/.pyenv/shims/gmake"
+      - "/usr/local/bin/gmake"
+      - "/usr/bin/gmake"
+      - "/bin/gmake"
+      - "/usr/local/sbin/gmake"
+      - "/usr/bin/site_perl/gmake"
+      - "/usr/bin/vendor_perl/gmake"
+      - "/usr/bin/core_perl/gmake"
+      - "/home/bogdanoff/.pyenv/shims/make"
+      - "/usr/local/bin/make"
+    found: "/usr/bin/make"
+    search_context:
+      ENV{PATH}:
+        - "/home/bogdanoff/.pyenv/shims"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/local/sbin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompiler.cmake:73 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:69 (_cmake_find_compiler)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_CXX_COMPILER"
+    description: "CXX compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "c++"
+      - "CC"
+      - "g++"
+      - "aCC"
+      - "cl"
+      - "bcc"
+      - "xlC"
+      - "icpx"
+      - "icx"
+      - "clang++"
+    candidate_directories:
+      - "/home/bogdanoff/.pyenv/shims/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+    searched_directories:
+      - "/home/bogdanoff/.pyenv/shims/c++"
+      - "/usr/local/bin/c++"
+    found: "/usr/bin/c++"
+    search_context:
+      ENV{PATH}:
+        - "/home/bogdanoff/.pyenv/shims"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/local/sbin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "/usr/share/cmake/Modules/"
+    found: "/usr/share/cmake/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "/home/bogdanoff/.pyenv/shims"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/local/sbin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: /usr/bin/c++ 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+      
+      The CXX compiler identification is GNU, found in:
+        /home/bogdanoff/study/FIIT_SP/build/CMakeFiles/4.2.3/CompilerIdCXX/a.out
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_AR"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ar"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/bogdanoff/.pyenv/shims/"
+      - "/usr/local/bin/"
+      - "/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+    found: "/usr/bin/ar"
+    search_context:
+      ENV{PATH}:
+        - "/home/bogdanoff/.pyenv/shims"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/local/sbin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_RANLIB"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ranlib"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/bogdanoff/.pyenv/shims/"
+      - "/usr/local/bin/"
+      - "/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+    found: "/usr/bin/ranlib"
+    search_context:
+      ENV{PATH}:
+        - "/home/bogdanoff/.pyenv/shims"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/local/sbin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_STRIP"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "strip"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/bogdanoff/.pyenv/shims/"
+      - "/usr/local/bin/"
+      - "/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+    found: "/usr/bin/strip"
+    search_context:
+      ENV{PATH}:
+        - "/home/bogdanoff/.pyenv/shims"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/local/sbin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_LINKER"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ld"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/bogdanoff/.pyenv/shims/"
+      - "/usr/local/bin/"
+      - "/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+    found: "/usr/bin/ld"
+    search_context:
+      ENV{PATH}:
+        - "/home/bogdanoff/.pyenv/shims"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/local/sbin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_NM"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "nm"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/bogdanoff/.pyenv/shims/"
+      - "/usr/local/bin/"
+      - "/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+    found: "/usr/bin/nm"
+    search_context:
+      ENV{PATH}:
+        - "/home/bogdanoff/.pyenv/shims"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/local/sbin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_OBJDUMP"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "objdump"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/bogdanoff/.pyenv/shims/"
+      - "/usr/local/bin/"
+      - "/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+    found: "/usr/bin/objdump"
+    search_context:
+      ENV{PATH}:
+        - "/home/bogdanoff/.pyenv/shims"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/local/sbin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_OBJCOPY"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "objcopy"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/bogdanoff/.pyenv/shims/"
+      - "/usr/local/bin/"
+      - "/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+    found: "/usr/bin/objcopy"
+    search_context:
+      ENV{PATH}:
+        - "/home/bogdanoff/.pyenv/shims"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/local/sbin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_READELF"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "readelf"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/bogdanoff/.pyenv/shims/"
+      - "/usr/local/bin/"
+      - "/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+    found: "/usr/bin/readelf"
+    search_context:
+      ENV{PATH}:
+        - "/home/bogdanoff/.pyenv/shims"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/local/sbin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_DLLTOOL"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "dlltool"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/bogdanoff/.pyenv/shims/"
+      - "/usr/local/bin/"
+      - "/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+    searched_directories:
+      - "/usr/bin/dlltool"
+      - "/home/bogdanoff/.pyenv/shims/dlltool"
+      - "/usr/local/bin/dlltool"
+      - "/bin/dlltool"
+      - "/usr/local/sbin/dlltool"
+      - "/usr/bin/site_perl/dlltool"
+      - "/usr/bin/vendor_perl/dlltool"
+      - "/usr/bin/core_perl/dlltool"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "/home/bogdanoff/.pyenv/shims"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/local/sbin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_ADDR2LINE"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "addr2line"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/bogdanoff/.pyenv/shims/"
+      - "/usr/local/bin/"
+      - "/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+    found: "/usr/bin/addr2line"
+    search_context:
+      ENV{PATH}:
+        - "/home/bogdanoff/.pyenv/shims"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/local/sbin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_TAPI"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "tapi"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/bogdanoff/.pyenv/shims/"
+      - "/usr/local/bin/"
+      - "/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+    searched_directories:
+      - "/usr/bin/tapi"
+      - "/home/bogdanoff/.pyenv/shims/tapi"
+      - "/usr/local/bin/tapi"
+      - "/bin/tapi"
+      - "/usr/local/sbin/tapi"
+      - "/usr/bin/site_perl/tapi"
+      - "/usr/bin/vendor_perl/tapi"
+      - "/usr/bin/core_perl/tapi"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "/home/bogdanoff/.pyenv/shims"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/local/sbin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/Compiler/GNU-FindBinUtils.cmake:18 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:207 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_CXX_COMPILER_AR"
+    description: "A wrapper around 'ar' adding the appropriate '--plugin' option for the GCC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "gcc-ar-15.2"
+      - "gcc-ar-15"
+      - "gcc-ar15"
+      - "gcc-ar"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/bogdanoff/.pyenv/shims/"
+      - "/usr/local/bin/"
+      - "/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+    searched_directories:
+      - "/usr/bin/gcc-ar-15.2"
+      - "/home/bogdanoff/.pyenv/shims/gcc-ar-15.2"
+      - "/usr/local/bin/gcc-ar-15.2"
+      - "/bin/gcc-ar-15.2"
+      - "/usr/local/sbin/gcc-ar-15.2"
+      - "/usr/bin/site_perl/gcc-ar-15.2"
+      - "/usr/bin/vendor_perl/gcc-ar-15.2"
+      - "/usr/bin/core_perl/gcc-ar-15.2"
+      - "/usr/bin/gcc-ar-15"
+      - "/home/bogdanoff/.pyenv/shims/gcc-ar-15"
+      - "/usr/local/bin/gcc-ar-15"
+      - "/bin/gcc-ar-15"
+      - "/usr/local/sbin/gcc-ar-15"
+      - "/usr/bin/site_perl/gcc-ar-15"
+      - "/usr/bin/vendor_perl/gcc-ar-15"
+      - "/usr/bin/core_perl/gcc-ar-15"
+      - "/usr/bin/gcc-ar15"
+      - "/home/bogdanoff/.pyenv/shims/gcc-ar15"
+      - "/usr/local/bin/gcc-ar15"
+      - "/bin/gcc-ar15"
+      - "/usr/local/sbin/gcc-ar15"
+      - "/usr/bin/site_perl/gcc-ar15"
+      - "/usr/bin/vendor_perl/gcc-ar15"
+      - "/usr/bin/core_perl/gcc-ar15"
+    found: "/usr/bin/gcc-ar"
+    search_context:
+      ENV{PATH}:
+        - "/home/bogdanoff/.pyenv/shims"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/local/sbin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/Compiler/GNU-FindBinUtils.cmake:30 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:207 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_CXX_COMPILER_RANLIB"
+    description: "A wrapper around 'ranlib' adding the appropriate '--plugin' option for the GCC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "gcc-ranlib-15.2"
+      - "gcc-ranlib-15"
+      - "gcc-ranlib15"
+      - "gcc-ranlib"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/bogdanoff/.pyenv/shims/"
+      - "/usr/local/bin/"
+      - "/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+    searched_directories:
+      - "/usr/bin/gcc-ranlib-15.2"
+      - "/home/bogdanoff/.pyenv/shims/gcc-ranlib-15.2"
+      - "/usr/local/bin/gcc-ranlib-15.2"
+      - "/bin/gcc-ranlib-15.2"
+      - "/usr/local/sbin/gcc-ranlib-15.2"
+      - "/usr/bin/site_perl/gcc-ranlib-15.2"
+      - "/usr/bin/vendor_perl/gcc-ranlib-15.2"
+      - "/usr/bin/core_perl/gcc-ranlib-15.2"
+      - "/usr/bin/gcc-ranlib-15"
+      - "/home/bogdanoff/.pyenv/shims/gcc-ranlib-15"
+      - "/usr/local/bin/gcc-ranlib-15"
+      - "/bin/gcc-ranlib-15"
+      - "/usr/local/sbin/gcc-ranlib-15"
+      - "/usr/bin/site_perl/gcc-ranlib-15"
+      - "/usr/bin/vendor_perl/gcc-ranlib-15"
+      - "/usr/bin/core_perl/gcc-ranlib-15"
+      - "/usr/bin/gcc-ranlib15"
+      - "/home/bogdanoff/.pyenv/shims/gcc-ranlib15"
+      - "/usr/local/bin/gcc-ranlib15"
+      - "/bin/gcc-ranlib15"
+      - "/usr/local/sbin/gcc-ranlib15"
+      - "/usr/bin/site_perl/gcc-ranlib15"
+      - "/usr/bin/vendor_perl/gcc-ranlib15"
+      - "/usr/bin/core_perl/gcc-ranlib15"
+    found: "/usr/bin/gcc-ranlib"
+    search_context:
+      ENV{PATH}:
+        - "/home/bogdanoff/.pyenv/shims"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/local/sbin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "/usr/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "/home/bogdanoff/study/FIIT_SP/build/CMakeFiles/CMakeScratch/TryCompile-o95eCD"
+      binary: "/home/bogdanoff/study/FIIT_SP/build/CMakeFiles/CMakeScratch/TryCompile-o95eCD"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/home/bogdanoff/study/FIIT_SP/build/CMakeFiles/CMakeScratch/TryCompile-o95eCD'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_c4802/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_c4802.dir/build.make CMakeFiles/cmTC_c4802.dir/build
+        make[1]: Entering directory '/home/bogdanoff/study/FIIT_SP/build/CMakeFiles/CMakeScratch/TryCompile-o95eCD'
+        Building CXX object CMakeFiles/cmTC_c4802.dir/CMakeCXXCompilerABI.cpp.o
+        /usr/bin/c++   -v -o CMakeFiles/cmTC_c4802.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+        Using built-in specs.
+        COLLECT_GCC=/usr/bin/c++
+        Target: x86_64-pc-linux-gnu
+        Configured with: /build/gcc/src/gcc/configure --enable-languages=ada,c,c++,d,fortran,go,lto,m2,objc,obj-c++,rust,cobol --enable-bootstrap --prefix=/usr --libdir=/usr/lib --libexecdir=/usr/lib --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=https://gitlab.archlinux.org/archlinux/packaging/packages/gcc/-/issues --with-build-config=bootstrap-lto --with-linker-hash-style=gnu --with-system-zlib --enable-__cxa_atexit --enable-cet=auto --enable-checking=release --enable-clocale=gnu --enable-default-pie --enable-default-ssp --enable-gnu-indirect-function --enable-gnu-unique-object --enable-libstdcxx-backtrace --enable-link-serialization=1 --enable-linker-build-id --enable-lto --enable-multilib --enable-plugin --enable-shared --enable-threads=posix --disable-libssp --disable-libstdcxx-pch --disable-werror
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 15.2.1 20260209 (GCC) 
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_c4802.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_c4802.dir/'
+         /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/cc1plus -quiet -v -D_GNU_SOURCE /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_c4802.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -o /tmp/ccRmoC4P.s
+        GNU C++17 (GCC) version 15.2.1 20260209 (x86_64-pc-linux-gnu)
+        	compiled by GNU C version 15.2.1 20260209, GMP version 6.3.0, MPFR version 4.2.2, MPC version 1.3.1, isl version isl-0.27-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring nonexistent directory "/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../x86_64-pc-linux-gnu/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../include/c++/15.2.1
+         /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../include/c++/15.2.1/x86_64-pc-linux-gnu
+         /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../include/c++/15.2.1/backward
+         /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include
+         /usr/local/include
+         /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include-fixed
+         /usr/include
+        End of search list.
+        Compiler executable checksum: 5e3969de92aa3c12a625237f01b15b2f
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_c4802.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_c4802.dir/'
+         as -v --64 -o CMakeFiles/cmTC_c4802.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccRmoC4P.s
+        GNU assembler version 2.46 (x86_64-pc-linux-gnu) using BFD version (GNU Binutils) 2.46
+        COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/
+        LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_c4802.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_c4802.dir/CMakeCXXCompilerABI.cpp.'
+        Linking CXX executable cmTC_c4802
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c4802.dir/link.txt --verbose=1
+        Using built-in specs.
+        COLLECT_GCC=/usr/bin/c++
+        COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/lto-wrapper
+        Target: x86_64-pc-linux-gnu
+        Configured with: /build/gcc/src/gcc/configure --enable-languages=ada,c,c++,d,fortran,go,lto,m2,objc,obj-c++,rust,cobol --enable-bootstrap --prefix=/usr --libdir=/usr/lib --libexecdir=/usr/lib --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=https://gitlab.archlinux.org/archlinux/packaging/packages/gcc/-/issues --with-build-config=bootstrap-lto --with-linker-hash-style=gnu --with-system-zlib --enable-__cxa_atexit --enable-cet=auto --enable-checking=release --enable-clocale=gnu --enable-default-pie --enable-default-ssp --enable-gnu-indirect-function --enable-gnu-unique-object --enable-libstdcxx-backtrace --enable-link-serialization=1 --enable-linker-build-id --enable-lto --enable-multilib --enable-plugin --enable-shared --enable-threads=posix --disable-libssp --disable-libstdcxx-pch --disable-werror
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 15.2.1 20260209 (GCC) 
+        COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/
+        LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_c4802' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_c4802.'
+         /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccwnnwxN.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_c4802 /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_c4802.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crtn.o
+        collect2 version 15.2.1 20260209
+        /usr/bin/ld -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccwnnwxN.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_c4802 /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_c4802.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crtn.o
+        GNU ld (GNU Binutils) 2.46
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_c4802' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_c4802.'
+        /usr/bin/c++  -v -Wl,-v CMakeFiles/cmTC_c4802.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_c4802
+        make[1]: Leaving directory '/home/bogdanoff/study/FIIT_SP/build/CMakeFiles/CMakeScratch/TryCompile-o95eCD'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:217 (message)"
+      - "/usr/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed CXX implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../include/c++/15.2.1]
+          add: [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../include/c++/15.2.1/x86_64-pc-linux-gnu]
+          add: [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../include/c++/15.2.1/backward]
+          add: [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include]
+          add: [/usr/local/include]
+          add: [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include-fixed]
+          add: [/usr/include]
+        end of search list found
+        collapse include dir [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../include/c++/15.2.1] ==> [/usr/include/c++/15.2.1]
+        collapse include dir [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../include/c++/15.2.1/x86_64-pc-linux-gnu] ==> [/usr/include/c++/15.2.1/x86_64-pc-linux-gnu]
+        collapse include dir [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../include/c++/15.2.1/backward] ==> [/usr/include/c++/15.2.1/backward]
+        collapse include dir [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include] ==> [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include]
+        collapse include dir [/usr/local/include] ==> [/usr/local/include]
+        collapse include dir [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include-fixed] ==> [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include-fixed]
+        collapse include dir [/usr/include] ==> [/usr/include]
+        implicit include dirs: [/usr/include/c++/15.2.1;/usr/include/c++/15.2.1/x86_64-pc-linux-gnu;/usr/include/c++/15.2.1/backward;/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include;/usr/local/include;/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include-fixed;/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
+      - "/usr/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
+        ignore line: [Change Dir: '/home/bogdanoff/study/FIIT_SP/build/CMakeFiles/CMakeScratch/TryCompile-o95eCD']
+        ignore line: []
+        ignore line: [Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_c4802/fast]
+        ignore line: [/usr/bin/make  -f CMakeFiles/cmTC_c4802.dir/build.make CMakeFiles/cmTC_c4802.dir/build]
+        ignore line: [make[1]: Entering directory '/home/bogdanoff/study/FIIT_SP/build/CMakeFiles/CMakeScratch/TryCompile-o95eCD']
+        ignore line: [Building CXX object CMakeFiles/cmTC_c4802.dir/CMakeCXXCompilerABI.cpp.o]
+        ignore line: [/usr/bin/c++   -v -o CMakeFiles/cmTC_c4802.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/usr/bin/c++]
+        ignore line: [Target: x86_64-pc-linux-gnu]
+        ignore line: [Configured with: /build/gcc/src/gcc/configure --enable-languages=ada c c++ d fortran go lto m2 objc obj-c++ rust cobol --enable-bootstrap --prefix=/usr --libdir=/usr/lib --libexecdir=/usr/lib --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=https://gitlab.archlinux.org/archlinux/packaging/packages/gcc/-/issues --with-build-config=bootstrap-lto --with-linker-hash-style=gnu --with-system-zlib --enable-__cxa_atexit --enable-cet=auto --enable-checking=release --enable-clocale=gnu --enable-default-pie --enable-default-ssp --enable-gnu-indirect-function --enable-gnu-unique-object --enable-libstdcxx-backtrace --enable-link-serialization=1 --enable-linker-build-id --enable-lto --enable-multilib --enable-plugin --enable-shared --enable-threads=posix --disable-libssp --disable-libstdcxx-pch --disable-werror]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 15.2.1 20260209 (GCC) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_c4802.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_c4802.dir/']
+        ignore line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/cc1plus -quiet -v -D_GNU_SOURCE /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_c4802.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -o /tmp/ccRmoC4P.s]
+        ignore line: [GNU C++17 (GCC) version 15.2.1 20260209 (x86_64-pc-linux-gnu)]
+        ignore line: [	compiled by GNU C version 15.2.1 20260209  GMP version 6.3.0  MPFR version 4.2.2  MPC version 1.3.1  isl version isl-0.27-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../x86_64-pc-linux-gnu/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../include/c++/15.2.1]
+        ignore line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../include/c++/15.2.1/x86_64-pc-linux-gnu]
+        ignore line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../include/c++/15.2.1/backward]
+        ignore line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include]
+        ignore line: [ /usr/local/include]
+        ignore line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include-fixed]
+        ignore line: [ /usr/include]
+        ignore line: [End of search list.]
+        ignore line: [Compiler executable checksum: 5e3969de92aa3c12a625237f01b15b2f]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_c4802.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_c4802.dir/']
+        ignore line: [ as -v --64 -o CMakeFiles/cmTC_c4802.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccRmoC4P.s]
+        ignore line: [GNU assembler version 2.46 (x86_64-pc-linux-gnu) using BFD version (GNU Binutils) 2.46]
+        ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/]
+        ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_c4802.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_c4802.dir/CMakeCXXCompilerABI.cpp.']
+        ignore line: [Linking CXX executable cmTC_c4802]
+        ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c4802.dir/link.txt --verbose=1]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/usr/bin/c++]
+        ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/lto-wrapper]
+        ignore line: [Target: x86_64-pc-linux-gnu]
+        ignore line: [Configured with: /build/gcc/src/gcc/configure --enable-languages=ada c c++ d fortran go lto m2 objc obj-c++ rust cobol --enable-bootstrap --prefix=/usr --libdir=/usr/lib --libexecdir=/usr/lib --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=https://gitlab.archlinux.org/archlinux/packaging/packages/gcc/-/issues --with-build-config=bootstrap-lto --with-linker-hash-style=gnu --with-system-zlib --enable-__cxa_atexit --enable-cet=auto --enable-checking=release --enable-clocale=gnu --enable-default-pie --enable-default-ssp --enable-gnu-indirect-function --enable-gnu-unique-object --enable-libstdcxx-backtrace --enable-link-serialization=1 --enable-linker-build-id --enable-lto --enable-multilib --enable-plugin --enable-shared --enable-threads=posix --disable-libssp --disable-libstdcxx-pch --disable-werror]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 15.2.1 20260209 (GCC) ]
+        ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/]
+        ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_c4802' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_c4802.']
+        link line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccwnnwxN.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_c4802 /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_c4802.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crtn.o]
+          arg [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/collect2] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/liblto_plugin.so] ==> ignore
+          arg [-plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/lto-wrapper] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/ccwnnwxN.res] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [--build-id] ==> ignore
+          arg [--eh-frame-hdr] ==> ignore
+          arg [--hash-style=gnu] ==> ignore
+          arg [-m] ==> ignore
+          arg [elf_x86_64] ==> ignore
+          arg [-dynamic-linker] ==> ignore
+          arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+          arg [-pie] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_c4802] ==> ignore
+          arg [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/Scrt1.o]
+          arg [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crti.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crti.o]
+          arg [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtbeginS.o]
+          arg [-L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1] ==> dir [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1]
+          arg [-L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib]
+          arg [-L/lib/../lib] ==> dir [/lib/../lib]
+          arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+          arg [-L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../..] ==> dir [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../..]
+          arg [-L/lib] ==> dir [/lib]
+          arg [-L/usr/lib] ==> dir [/usr/lib]
+          arg [-v] ==> ignore
+          arg [CMakeFiles/cmTC_c4802.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [-lstdc++] ==> lib [stdc++]
+          arg [-lm] ==> lib [m]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lc] ==> lib [c]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtendS.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtendS.o]
+          arg [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crtn.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crtn.o]
+        ignore line: [collect2 version 15.2.1 20260209]
+        ignore line: [/usr/bin/ld -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccwnnwxN.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_c4802 /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_c4802.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crtn.o]
+        linker tool for 'CXX': /usr/bin/ld
+        collapse obj [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/Scrt1.o] ==> [/usr/lib/Scrt1.o]
+        collapse obj [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crti.o] ==> [/usr/lib/crti.o]
+        collapse obj [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crtn.o] ==> [/usr/lib/crtn.o]
+        collapse library dir [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1] ==> [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1]
+        collapse library dir [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib] ==> [/usr/lib]
+        collapse library dir [/lib/../lib] ==> [/lib]
+        collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+        collapse library dir [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../..] ==> [/usr/lib]
+        collapse library dir [/lib] ==> [/lib]
+        collapse library dir [/usr/lib] ==> [/usr/lib]
+        implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+        implicit objs: [/usr/lib/Scrt1.o;/usr/lib/crti.o;/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtbeginS.o;/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtendS.o;/usr/lib/crtn.o]
+        implicit dirs: [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1;/usr/lib;/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/Internal/CMakeDetermineLinkerId.cmake:38 (message)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
+      - "/usr/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Running the CXX compiler's linker: "/usr/bin/ld" "-v"
+      GNU ld (GNU Binutils) 2.46
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompiler.cmake:54 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCCompiler.cmake:64 (_cmake_find_compiler)"
+      - "build/_deps/googletest-src/CMakeLists.txt:18 (project)"
+    mode: "program"
+    variable: "CMAKE_C_COMPILER"
+    description: "C compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "cc"
+      - "gcc"
+      - "cl"
+      - "bcc"
+      - "xlc"
+      - "icx"
+      - "clang"
+    candidate_directories:
+      - "/usr/bin/"
+    found: "/usr/bin/cc"
+    search_context:
+      ENV{PATH}:
+        - "/home/bogdanoff/.pyenv/shims"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/local/sbin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/usr"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "build/_deps/googletest-src/CMakeLists.txt:18 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "/usr/share/cmake/Modules/"
+    found: "/usr/share/cmake/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      ENV{PATH}:
+        - "/home/bogdanoff/.pyenv/shims"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/local/sbin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/usr"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+      CMAKE_SYSTEM_INCLUDE_PATH:
+        - "/usr/include/X11"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "build/_deps/googletest-src/CMakeLists.txt:18 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: /usr/bin/cc 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+      
+      The C compiler identification is GNU, found in:
+        /home/bogdanoff/study/FIIT_SP/build/CMakeFiles/4.2.3/CompilerIdC/a.out
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/Compiler/GNU-FindBinUtils.cmake:18 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCCompiler.cmake:201 (include)"
+      - "build/_deps/googletest-src/CMakeLists.txt:18 (project)"
+    mode: "program"
+    variable: "CMAKE_C_COMPILER_AR"
+    description: "A wrapper around 'ar' adding the appropriate '--plugin' option for the GCC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "gcc-ar-15.2"
+      - "gcc-ar-15"
+      - "gcc-ar15"
+      - "gcc-ar"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/bogdanoff/.pyenv/shims/"
+      - "/usr/local/bin/"
+      - "/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+      - "/usr/local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/"
+      - "/usr/bin/"
+      - "/usr/sbin/"
+      - "/usr/"
+      - "/bin/"
+      - "/sbin/"
+      - "/usr/X11R6/bin/"
+      - "/usr/X11R6/sbin/"
+      - "/usr/X11R6/"
+      - "/usr/pkg/bin/"
+      - "/usr/pkg/sbin/"
+      - "/usr/pkg/"
+      - "/opt/bin/"
+      - "/opt/sbin/"
+      - "/opt/"
+    searched_directories:
+      - "/usr/bin/gcc-ar-15.2"
+      - "/home/bogdanoff/.pyenv/shims/gcc-ar-15.2"
+      - "/usr/local/bin/gcc-ar-15.2"
+      - "/bin/gcc-ar-15.2"
+      - "/usr/local/sbin/gcc-ar-15.2"
+      - "/usr/bin/site_perl/gcc-ar-15.2"
+      - "/usr/bin/vendor_perl/gcc-ar-15.2"
+      - "/usr/bin/core_perl/gcc-ar-15.2"
+      - "/usr/local/bin/gcc-ar-15.2"
+      - "/usr/local/sbin/gcc-ar-15.2"
+      - "/usr/local/gcc-ar-15.2"
+      - "/usr/bin/gcc-ar-15.2"
+      - "/usr/sbin/gcc-ar-15.2"
+      - "/usr/gcc-ar-15.2"
+      - "/bin/gcc-ar-15.2"
+      - "/sbin/gcc-ar-15.2"
+      - "/usr/X11R6/bin/gcc-ar-15.2"
+      - "/usr/X11R6/sbin/gcc-ar-15.2"
+      - "/usr/X11R6/gcc-ar-15.2"
+      - "/usr/pkg/bin/gcc-ar-15.2"
+      - "/usr/pkg/sbin/gcc-ar-15.2"
+      - "/usr/pkg/gcc-ar-15.2"
+      - "/opt/bin/gcc-ar-15.2"
+      - "/opt/sbin/gcc-ar-15.2"
+      - "/opt/gcc-ar-15.2"
+      - "/usr/bin/gcc-ar-15"
+      - "/home/bogdanoff/.pyenv/shims/gcc-ar-15"
+      - "/usr/local/bin/gcc-ar-15"
+      - "/bin/gcc-ar-15"
+      - "/usr/local/sbin/gcc-ar-15"
+      - "/usr/bin/site_perl/gcc-ar-15"
+      - "/usr/bin/vendor_perl/gcc-ar-15"
+      - "/usr/bin/core_perl/gcc-ar-15"
+      - "/usr/local/bin/gcc-ar-15"
+      - "/usr/local/sbin/gcc-ar-15"
+      - "/usr/local/gcc-ar-15"
+      - "/usr/bin/gcc-ar-15"
+      - "/usr/sbin/gcc-ar-15"
+      - "/usr/gcc-ar-15"
+      - "/bin/gcc-ar-15"
+      - "/sbin/gcc-ar-15"
+      - "/usr/X11R6/bin/gcc-ar-15"
+      - "/usr/X11R6/sbin/gcc-ar-15"
+      - "/usr/X11R6/gcc-ar-15"
+      - "/usr/pkg/bin/gcc-ar-15"
+      - "/usr/pkg/sbin/gcc-ar-15"
+      - "/usr/pkg/gcc-ar-15"
+      - "/opt/bin/gcc-ar-15"
+      - "/opt/sbin/gcc-ar-15"
+      - "/opt/gcc-ar-15"
+      - "/usr/bin/gcc-ar15"
+      - "/home/bogdanoff/.pyenv/shims/gcc-ar15"
+      - "/usr/local/bin/gcc-ar15"
+      - "/bin/gcc-ar15"
+      - "/usr/local/sbin/gcc-ar15"
+      - "/usr/bin/site_perl/gcc-ar15"
+      - "/usr/bin/vendor_perl/gcc-ar15"
+      - "/usr/bin/core_perl/gcc-ar15"
+      - "/usr/local/bin/gcc-ar15"
+      - "/usr/local/sbin/gcc-ar15"
+      - "/usr/local/gcc-ar15"
+      - "/usr/bin/gcc-ar15"
+      - "/usr/sbin/gcc-ar15"
+      - "/usr/gcc-ar15"
+      - "/bin/gcc-ar15"
+      - "/sbin/gcc-ar15"
+      - "/usr/X11R6/bin/gcc-ar15"
+      - "/usr/X11R6/sbin/gcc-ar15"
+      - "/usr/X11R6/gcc-ar15"
+      - "/usr/pkg/bin/gcc-ar15"
+      - "/usr/pkg/sbin/gcc-ar15"
+      - "/usr/pkg/gcc-ar15"
+      - "/opt/bin/gcc-ar15"
+      - "/opt/sbin/gcc-ar15"
+      - "/opt/gcc-ar15"
+    found: "/usr/bin/gcc-ar"
+    search_context:
+      ENV{PATH}:
+        - "/home/bogdanoff/.pyenv/shims"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/local/sbin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/usr"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/Compiler/GNU-FindBinUtils.cmake:30 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCCompiler.cmake:201 (include)"
+      - "build/_deps/googletest-src/CMakeLists.txt:18 (project)"
+    mode: "program"
+    variable: "CMAKE_C_COMPILER_RANLIB"
+    description: "A wrapper around 'ranlib' adding the appropriate '--plugin' option for the GCC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "gcc-ranlib-15.2"
+      - "gcc-ranlib-15"
+      - "gcc-ranlib15"
+      - "gcc-ranlib"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/bogdanoff/.pyenv/shims/"
+      - "/usr/local/bin/"
+      - "/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+      - "/usr/local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/"
+      - "/usr/bin/"
+      - "/usr/sbin/"
+      - "/usr/"
+      - "/bin/"
+      - "/sbin/"
+      - "/usr/X11R6/bin/"
+      - "/usr/X11R6/sbin/"
+      - "/usr/X11R6/"
+      - "/usr/pkg/bin/"
+      - "/usr/pkg/sbin/"
+      - "/usr/pkg/"
+      - "/opt/bin/"
+      - "/opt/sbin/"
+      - "/opt/"
+    searched_directories:
+      - "/usr/bin/gcc-ranlib-15.2"
+      - "/home/bogdanoff/.pyenv/shims/gcc-ranlib-15.2"
+      - "/usr/local/bin/gcc-ranlib-15.2"
+      - "/bin/gcc-ranlib-15.2"
+      - "/usr/local/sbin/gcc-ranlib-15.2"
+      - "/usr/bin/site_perl/gcc-ranlib-15.2"
+      - "/usr/bin/vendor_perl/gcc-ranlib-15.2"
+      - "/usr/bin/core_perl/gcc-ranlib-15.2"
+      - "/usr/local/bin/gcc-ranlib-15.2"
+      - "/usr/local/sbin/gcc-ranlib-15.2"
+      - "/usr/local/gcc-ranlib-15.2"
+      - "/usr/bin/gcc-ranlib-15.2"
+      - "/usr/sbin/gcc-ranlib-15.2"
+      - "/usr/gcc-ranlib-15.2"
+      - "/bin/gcc-ranlib-15.2"
+      - "/sbin/gcc-ranlib-15.2"
+      - "/usr/X11R6/bin/gcc-ranlib-15.2"
+      - "/usr/X11R6/sbin/gcc-ranlib-15.2"
+      - "/usr/X11R6/gcc-ranlib-15.2"
+      - "/usr/pkg/bin/gcc-ranlib-15.2"
+      - "/usr/pkg/sbin/gcc-ranlib-15.2"
+      - "/usr/pkg/gcc-ranlib-15.2"
+      - "/opt/bin/gcc-ranlib-15.2"
+      - "/opt/sbin/gcc-ranlib-15.2"
+      - "/opt/gcc-ranlib-15.2"
+      - "/usr/bin/gcc-ranlib-15"
+      - "/home/bogdanoff/.pyenv/shims/gcc-ranlib-15"
+      - "/usr/local/bin/gcc-ranlib-15"
+      - "/bin/gcc-ranlib-15"
+      - "/usr/local/sbin/gcc-ranlib-15"
+      - "/usr/bin/site_perl/gcc-ranlib-15"
+      - "/usr/bin/vendor_perl/gcc-ranlib-15"
+      - "/usr/bin/core_perl/gcc-ranlib-15"
+      - "/usr/local/bin/gcc-ranlib-15"
+      - "/usr/local/sbin/gcc-ranlib-15"
+      - "/usr/local/gcc-ranlib-15"
+      - "/usr/bin/gcc-ranlib-15"
+      - "/usr/sbin/gcc-ranlib-15"
+      - "/usr/gcc-ranlib-15"
+      - "/bin/gcc-ranlib-15"
+      - "/sbin/gcc-ranlib-15"
+      - "/usr/X11R6/bin/gcc-ranlib-15"
+      - "/usr/X11R6/sbin/gcc-ranlib-15"
+      - "/usr/X11R6/gcc-ranlib-15"
+      - "/usr/pkg/bin/gcc-ranlib-15"
+      - "/usr/pkg/sbin/gcc-ranlib-15"
+      - "/usr/pkg/gcc-ranlib-15"
+      - "/opt/bin/gcc-ranlib-15"
+      - "/opt/sbin/gcc-ranlib-15"
+      - "/opt/gcc-ranlib-15"
+      - "/usr/bin/gcc-ranlib15"
+      - "/home/bogdanoff/.pyenv/shims/gcc-ranlib15"
+      - "/usr/local/bin/gcc-ranlib15"
+      - "/bin/gcc-ranlib15"
+      - "/usr/local/sbin/gcc-ranlib15"
+      - "/usr/bin/site_perl/gcc-ranlib15"
+      - "/usr/bin/vendor_perl/gcc-ranlib15"
+      - "/usr/bin/core_perl/gcc-ranlib15"
+      - "/usr/local/bin/gcc-ranlib15"
+      - "/usr/local/sbin/gcc-ranlib15"
+      - "/usr/local/gcc-ranlib15"
+      - "/usr/bin/gcc-ranlib15"
+      - "/usr/sbin/gcc-ranlib15"
+      - "/usr/gcc-ranlib15"
+      - "/bin/gcc-ranlib15"
+      - "/sbin/gcc-ranlib15"
+      - "/usr/X11R6/bin/gcc-ranlib15"
+      - "/usr/X11R6/sbin/gcc-ranlib15"
+      - "/usr/X11R6/gcc-ranlib15"
+      - "/usr/pkg/bin/gcc-ranlib15"
+      - "/usr/pkg/sbin/gcc-ranlib15"
+      - "/usr/pkg/gcc-ranlib15"
+      - "/opt/bin/gcc-ranlib15"
+      - "/opt/sbin/gcc-ranlib15"
+      - "/opt/gcc-ranlib15"
+    found: "/usr/bin/gcc-ranlib"
+    search_context:
+      ENV{PATH}:
+        - "/home/bogdanoff/.pyenv/shims"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/local/sbin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/usr"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "/usr/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "build/_deps/googletest-src/CMakeLists.txt:18 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "/home/bogdanoff/study/FIIT_SP/build/CMakeFiles/CMakeScratch/TryCompile-KbR30o"
+      binary: "/home/bogdanoff/study/FIIT_SP/build/CMakeFiles/CMakeScratch/TryCompile-KbR30o"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/home/bogdanoff/study/FIIT_SP/build/CMakeFiles/CMakeScratch/TryCompile-KbR30o'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_d991a/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_d991a.dir/build.make CMakeFiles/cmTC_d991a.dir/build
+        make[1]: Entering directory '/home/bogdanoff/study/FIIT_SP/build/CMakeFiles/CMakeScratch/TryCompile-KbR30o'
+        Building C object CMakeFiles/cmTC_d991a.dir/CMakeCCompilerABI.c.o
+        /usr/bin/cc   -v -o CMakeFiles/cmTC_d991a.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake/Modules/CMakeCCompilerABI.c
+        Using built-in specs.
+        COLLECT_GCC=/usr/bin/cc
+        Target: x86_64-pc-linux-gnu
+        Configured with: /build/gcc/src/gcc/configure --enable-languages=ada,c,c++,d,fortran,go,lto,m2,objc,obj-c++,rust,cobol --enable-bootstrap --prefix=/usr --libdir=/usr/lib --libexecdir=/usr/lib --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=https://gitlab.archlinux.org/archlinux/packaging/packages/gcc/-/issues --with-build-config=bootstrap-lto --with-linker-hash-style=gnu --with-system-zlib --enable-__cxa_atexit --enable-cet=auto --enable-checking=release --enable-clocale=gnu --enable-default-pie --enable-default-ssp --enable-gnu-indirect-function --enable-gnu-unique-object --enable-libstdcxx-backtrace --enable-link-serialization=1 --enable-linker-build-id --enable-lto --enable-multilib --enable-plugin --enable-shared --enable-threads=posix --disable-libssp --disable-libstdcxx-pch --disable-werror
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 15.2.1 20260209 (GCC) 
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_d991a.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_d991a.dir/'
+         /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/cc1 -quiet -v /usr/share/cmake/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_d991a.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -o /tmp/ccTMTfzQ.s
+        GNU C23 (GCC) version 15.2.1 20260209 (x86_64-pc-linux-gnu)
+        	compiled by GNU C version 15.2.1 20260209, GMP version 6.3.0, MPFR version 4.2.2, MPC version 1.3.1, isl version isl-0.27-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring nonexistent directory "/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../x86_64-pc-linux-gnu/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include
+         /usr/local/include
+         /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include-fixed
+         /usr/include
+        End of search list.
+        Compiler executable checksum: 4a3176b8a5098bb872007d0a1d5e5fb3
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_d991a.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_d991a.dir/'
+         as -v --64 -o CMakeFiles/cmTC_d991a.dir/CMakeCCompilerABI.c.o /tmp/ccTMTfzQ.s
+        GNU assembler version 2.46 (x86_64-pc-linux-gnu) using BFD version (GNU Binutils) 2.46
+        COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/
+        LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_d991a.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_d991a.dir/CMakeCCompilerABI.c.'
+        Linking C executable cmTC_d991a
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d991a.dir/link.txt --verbose=1
+        Using built-in specs.
+        COLLECT_GCC=/usr/bin/cc
+        COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/lto-wrapper
+        Target: x86_64-pc-linux-gnu
+        Configured with: /build/gcc/src/gcc/configure --enable-languages=ada,c,c++,d,fortran,go,lto,m2,objc,obj-c++,rust,cobol --enable-bootstrap --prefix=/usr --libdir=/usr/lib --libexecdir=/usr/lib --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=https://gitlab.archlinux.org/archlinux/packaging/packages/gcc/-/issues --with-build-config=bootstrap-lto --with-linker-hash-style=gnu --with-system-zlib --enable-__cxa_atexit --enable-cet=auto --enable-checking=release --enable-clocale=gnu --enable-default-pie --enable-default-ssp --enable-gnu-indirect-function --enable-gnu-unique-object --enable-libstdcxx-backtrace --enable-link-serialization=1 --enable-linker-build-id --enable-lto --enable-multilib --enable-plugin --enable-shared --enable-threads=posix --disable-libssp --disable-libstdcxx-pch --disable-werror
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 15.2.1 20260209 (GCC) 
+        COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/
+        LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_d991a' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_d991a.'
+         /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccXcqCT9.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_d991a /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_d991a.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crtn.o
+        collect2 version 15.2.1 20260209
+        /usr/bin/ld -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccXcqCT9.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_d991a /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_d991a.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crtn.o
+        GNU ld (GNU Binutils) 2.46
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_d991a' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_d991a.'
+        /usr/bin/cc  -v -Wl,-v CMakeFiles/cmTC_d991a.dir/CMakeCCompilerABI.c.o -o cmTC_d991a
+        make[1]: Leaving directory '/home/bogdanoff/study/FIIT_SP/build/CMakeFiles/CMakeScratch/TryCompile-KbR30o'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:217 (message)"
+      - "/usr/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "build/_deps/googletest-src/CMakeLists.txt:18 (project)"
+    message: |
+      Parsed C implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include]
+          add: [/usr/local/include]
+          add: [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include-fixed]
+          add: [/usr/include]
+        end of search list found
+        collapse include dir [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include] ==> [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include]
+        collapse include dir [/usr/local/include] ==> [/usr/local/include]
+        collapse include dir [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include-fixed] ==> [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include-fixed]
+        collapse include dir [/usr/include] ==> [/usr/include]
+        implicit include dirs: [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include;/usr/local/include;/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include-fixed;/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
+      - "/usr/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "build/_deps/googletest-src/CMakeLists.txt:18 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
+        ignore line: [Change Dir: '/home/bogdanoff/study/FIIT_SP/build/CMakeFiles/CMakeScratch/TryCompile-KbR30o']
+        ignore line: []
+        ignore line: [Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_d991a/fast]
+        ignore line: [/usr/bin/make  -f CMakeFiles/cmTC_d991a.dir/build.make CMakeFiles/cmTC_d991a.dir/build]
+        ignore line: [make[1]: Entering directory '/home/bogdanoff/study/FIIT_SP/build/CMakeFiles/CMakeScratch/TryCompile-KbR30o']
+        ignore line: [Building C object CMakeFiles/cmTC_d991a.dir/CMakeCCompilerABI.c.o]
+        ignore line: [/usr/bin/cc   -v -o CMakeFiles/cmTC_d991a.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake/Modules/CMakeCCompilerABI.c]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/usr/bin/cc]
+        ignore line: [Target: x86_64-pc-linux-gnu]
+        ignore line: [Configured with: /build/gcc/src/gcc/configure --enable-languages=ada c c++ d fortran go lto m2 objc obj-c++ rust cobol --enable-bootstrap --prefix=/usr --libdir=/usr/lib --libexecdir=/usr/lib --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=https://gitlab.archlinux.org/archlinux/packaging/packages/gcc/-/issues --with-build-config=bootstrap-lto --with-linker-hash-style=gnu --with-system-zlib --enable-__cxa_atexit --enable-cet=auto --enable-checking=release --enable-clocale=gnu --enable-default-pie --enable-default-ssp --enable-gnu-indirect-function --enable-gnu-unique-object --enable-libstdcxx-backtrace --enable-link-serialization=1 --enable-linker-build-id --enable-lto --enable-multilib --enable-plugin --enable-shared --enable-threads=posix --disable-libssp --disable-libstdcxx-pch --disable-werror]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 15.2.1 20260209 (GCC) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_d991a.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_d991a.dir/']
+        ignore line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/cc1 -quiet -v /usr/share/cmake/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_d991a.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -o /tmp/ccTMTfzQ.s]
+        ignore line: [GNU C23 (GCC) version 15.2.1 20260209 (x86_64-pc-linux-gnu)]
+        ignore line: [	compiled by GNU C version 15.2.1 20260209  GMP version 6.3.0  MPFR version 4.2.2  MPC version 1.3.1  isl version isl-0.27-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../x86_64-pc-linux-gnu/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include]
+        ignore line: [ /usr/local/include]
+        ignore line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include-fixed]
+        ignore line: [ /usr/include]
+        ignore line: [End of search list.]
+        ignore line: [Compiler executable checksum: 4a3176b8a5098bb872007d0a1d5e5fb3]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_d991a.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_d991a.dir/']
+        ignore line: [ as -v --64 -o CMakeFiles/cmTC_d991a.dir/CMakeCCompilerABI.c.o /tmp/ccTMTfzQ.s]
+        ignore line: [GNU assembler version 2.46 (x86_64-pc-linux-gnu) using BFD version (GNU Binutils) 2.46]
+        ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/]
+        ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_d991a.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_d991a.dir/CMakeCCompilerABI.c.']
+        ignore line: [Linking C executable cmTC_d991a]
+        ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d991a.dir/link.txt --verbose=1]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/usr/bin/cc]
+        ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/lto-wrapper]
+        ignore line: [Target: x86_64-pc-linux-gnu]
+        ignore line: [Configured with: /build/gcc/src/gcc/configure --enable-languages=ada c c++ d fortran go lto m2 objc obj-c++ rust cobol --enable-bootstrap --prefix=/usr --libdir=/usr/lib --libexecdir=/usr/lib --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=https://gitlab.archlinux.org/archlinux/packaging/packages/gcc/-/issues --with-build-config=bootstrap-lto --with-linker-hash-style=gnu --with-system-zlib --enable-__cxa_atexit --enable-cet=auto --enable-checking=release --enable-clocale=gnu --enable-default-pie --enable-default-ssp --enable-gnu-indirect-function --enable-gnu-unique-object --enable-libstdcxx-backtrace --enable-link-serialization=1 --enable-linker-build-id --enable-lto --enable-multilib --enable-plugin --enable-shared --enable-threads=posix --disable-libssp --disable-libstdcxx-pch --disable-werror]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 15.2.1 20260209 (GCC) ]
+        ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/]
+        ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_d991a' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_d991a.']
+        link line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccXcqCT9.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_d991a /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_d991a.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crtn.o]
+          arg [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/collect2] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/liblto_plugin.so] ==> ignore
+          arg [-plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/lto-wrapper] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/ccXcqCT9.res] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [--build-id] ==> ignore
+          arg [--eh-frame-hdr] ==> ignore
+          arg [--hash-style=gnu] ==> ignore
+          arg [-m] ==> ignore
+          arg [elf_x86_64] ==> ignore
+          arg [-dynamic-linker] ==> ignore
+          arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+          arg [-pie] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_d991a] ==> ignore
+          arg [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/Scrt1.o]
+          arg [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crti.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crti.o]
+          arg [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtbeginS.o]
+          arg [-L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1] ==> dir [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1]
+          arg [-L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib]
+          arg [-L/lib/../lib] ==> dir [/lib/../lib]
+          arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+          arg [-L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../..] ==> dir [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../..]
+          arg [-L/lib] ==> dir [/lib]
+          arg [-L/usr/lib] ==> dir [/usr/lib]
+          arg [-v] ==> ignore
+          arg [CMakeFiles/cmTC_d991a.dir/CMakeCCompilerABI.c.o] ==> ignore
+          arg [-lgcc] ==> lib [gcc]
+          arg [--push-state] ==> ignore
+          arg [--as-needed] ==> ignore
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [--pop-state] ==> ignore
+          arg [-lc] ==> lib [c]
+          arg [-lgcc] ==> lib [gcc]
+          arg [--push-state] ==> ignore
+          arg [--as-needed] ==> ignore
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [--pop-state] ==> ignore
+          arg [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtendS.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtendS.o]
+          arg [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crtn.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crtn.o]
+        ignore line: [collect2 version 15.2.1 20260209]
+        ignore line: [/usr/bin/ld -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccXcqCT9.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_d991a /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_d991a.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crtn.o]
+        linker tool for 'C': /usr/bin/ld
+        collapse obj [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/Scrt1.o] ==> [/usr/lib/Scrt1.o]
+        collapse obj [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crti.o] ==> [/usr/lib/crti.o]
+        collapse obj [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crtn.o] ==> [/usr/lib/crtn.o]
+        collapse library dir [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1] ==> [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1]
+        collapse library dir [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib] ==> [/usr/lib]
+        collapse library dir [/lib/../lib] ==> [/lib]
+        collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+        collapse library dir [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../..] ==> [/usr/lib]
+        collapse library dir [/lib] ==> [/lib]
+        collapse library dir [/usr/lib] ==> [/usr/lib]
+        implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+        implicit objs: [/usr/lib/Scrt1.o;/usr/lib/crti.o;/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtbeginS.o;/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtendS.o;/usr/lib/crtn.o]
+        implicit dirs: [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1;/usr/lib;/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/Internal/CMakeDetermineLinkerId.cmake:38 (message)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
+      - "/usr/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "build/_deps/googletest-src/CMakeLists.txt:18 (project)"
+    message: |
+      Running the C compiler's linker: "/usr/bin/ld" "-v"
+      GNU ld (GNU Binutils) 2.46
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/FindPython/Support.cmake:2076 (find_program)"
+      - "/usr/share/cmake/Modules/FindPython.cmake:721 (include)"
+      - "build/_deps/googletest-src/googletest/cmake/internal_utils.cmake:263 (find_package)"
+      - "build/_deps/googletest-src/googletest/CMakeLists.txt:86 (include)"
+    mode: "program"
+    variable: "_Python_EXECUTABLE"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: false
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "python3.15mu"
+      - "python3.15m"
+      - "python3.15u"
+      - "python3.15"
+      - "python3.15dmu"
+      - "python3.15dm"
+      - "python3.15du"
+      - "python3.15d"
+      - "python3.14mu"
+      - "python3.14m"
+      - "python3.14u"
+      - "python3.14"
+      - "python3.14dmu"
+      - "python3.14dm"
+      - "python3.14du"
+      - "python3.14d"
+      - "python3.13mu"
+      - "python3.13m"
+      - "python3.13u"
+      - "python3.13"
+      - "python3.13dmu"
+      - "python3.13dm"
+      - "python3.13du"
+      - "python3.13d"
+      - "python3.12mu"
+      - "python3.12m"
+      - "python3.12u"
+      - "python3.12"
+      - "python3.12dmu"
+      - "python3.12dm"
+      - "python3.12du"
+      - "python3.12d"
+      - "python3.11mu"
+      - "python3.11m"
+      - "python3.11u"
+      - "python3.11"
+      - "python3.11dmu"
+      - "python3.11dm"
+      - "python3.11du"
+      - "python3.11d"
+      - "python3.10mu"
+      - "python3.10m"
+      - "python3.10u"
+      - "python3.10"
+      - "python3.10dmu"
+      - "python3.10dm"
+      - "python3.10du"
+      - "python3.10d"
+      - "python3.9mu"
+      - "python3.9m"
+      - "python3.9u"
+      - "python3.9"
+      - "python3.9dmu"
+      - "python3.9dm"
+      - "python3.9du"
+      - "python3.9d"
+      - "python3.8mu"
+      - "python3.8m"
+      - "python3.8u"
+      - "python3.8"
+      - "python3.8dmu"
+      - "python3.8dm"
+      - "python3.8du"
+      - "python3.8d"
+      - "python3.7mu"
+      - "python3.7m"
+      - "python3.7u"
+      - "python3.7"
+      - "python3.7dmu"
+      - "python3.7dm"
+      - "python3.7du"
+      - "python3.7d"
+      - "python3.6mu"
+      - "python3.6m"
+      - "python3.6u"
+      - "python3.6"
+      - "python3.6dmu"
+      - "python3.6dm"
+      - "python3.6du"
+      - "python3.6d"
+      - "python3.5mu"
+      - "python3.5m"
+      - "python3.5u"
+      - "python3.5"
+      - "python3.5dmu"
+      - "python3.5dm"
+      - "python3.5du"
+      - "python3.5d"
+      - "python3.4mu"
+      - "python3.4m"
+      - "python3.4u"
+      - "python3.4"
+      - "python3.4dmu"
+      - "python3.4dm"
+      - "python3.4du"
+      - "python3.4d"
+      - "python3.3mu"
+      - "python3.3m"
+      - "python3.3u"
+      - "python3.3"
+      - "python3.3dmu"
+      - "python3.3dm"
+      - "python3.3du"
+      - "python3.3d"
+      - "python3.2mu"
+      - "python3.2m"
+      - "python3.2u"
+      - "python3.2"
+      - "python3.2dmu"
+      - "python3.2dm"
+      - "python3.2du"
+      - "python3.2d"
+      - "python3.1mu"
+      - "python3.1m"
+      - "python3.1u"
+      - "python3.1"
+      - "python3.1dmu"
+      - "python3.1dm"
+      - "python3.1du"
+      - "python3.1d"
+      - "python3.0mu"
+      - "python3.0m"
+      - "python3.0u"
+      - "python3.0"
+      - "python3.0dmu"
+      - "python3.0dm"
+      - "python3.0du"
+      - "python3.0d"
+      - "python3"
+      - "python"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "/home/bogdanoff/.pyenv/shims"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/local/sbin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/usr"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/FindPython/Support.cmake:2088 (find_program)"
+      - "/usr/share/cmake/Modules/FindPython.cmake:721 (include)"
+      - "build/_deps/googletest-src/googletest/cmake/internal_utils.cmake:263 (find_package)"
+      - "build/_deps/googletest-src/googletest/CMakeLists.txt:86 (include)"
+    mode: "program"
+    variable: "_Python_EXECUTABLE"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "python3.15mu"
+      - "python3.15m"
+      - "python3.15u"
+      - "python3.15"
+      - "python3.15dmu"
+      - "python3.15dm"
+      - "python3.15du"
+      - "python3.15d"
+      - "python3.14mu"
+      - "python3.14m"
+      - "python3.14u"
+      - "python3.14"
+      - "python3.14dmu"
+      - "python3.14dm"
+      - "python3.14du"
+      - "python3.14d"
+      - "python3.13mu"
+      - "python3.13m"
+      - "python3.13u"
+      - "python3.13"
+      - "python3.13dmu"
+      - "python3.13dm"
+      - "python3.13du"
+      - "python3.13d"
+      - "python3.12mu"
+      - "python3.12m"
+      - "python3.12u"
+      - "python3.12"
+      - "python3.12dmu"
+      - "python3.12dm"
+      - "python3.12du"
+      - "python3.12d"
+      - "python3.11mu"
+      - "python3.11m"
+      - "python3.11u"
+      - "python3.11"
+      - "python3.11dmu"
+      - "python3.11dm"
+      - "python3.11du"
+      - "python3.11d"
+      - "python3.10mu"
+      - "python3.10m"
+      - "python3.10u"
+      - "python3.10"
+      - "python3.10dmu"
+      - "python3.10dm"
+      - "python3.10du"
+      - "python3.10d"
+      - "python3.9mu"
+      - "python3.9m"
+      - "python3.9u"
+      - "python3.9"
+      - "python3.9dmu"
+      - "python3.9dm"
+      - "python3.9du"
+      - "python3.9d"
+      - "python3.8mu"
+      - "python3.8m"
+      - "python3.8u"
+      - "python3.8"
+      - "python3.8dmu"
+      - "python3.8dm"
+      - "python3.8du"
+      - "python3.8d"
+      - "python3.7mu"
+      - "python3.7m"
+      - "python3.7u"
+      - "python3.7"
+      - "python3.7dmu"
+      - "python3.7dm"
+      - "python3.7du"
+      - "python3.7d"
+      - "python3.6mu"
+      - "python3.6m"
+      - "python3.6u"
+      - "python3.6"
+      - "python3.6dmu"
+      - "python3.6dm"
+      - "python3.6du"
+      - "python3.6d"
+      - "python3.5mu"
+      - "python3.5m"
+      - "python3.5u"
+      - "python3.5"
+      - "python3.5dmu"
+      - "python3.5dm"
+      - "python3.5du"
+      - "python3.5d"
+      - "python3.4mu"
+      - "python3.4m"
+      - "python3.4u"
+      - "python3.4"
+      - "python3.4dmu"
+      - "python3.4dm"
+      - "python3.4du"
+      - "python3.4d"
+      - "python3.3mu"
+      - "python3.3m"
+      - "python3.3u"
+      - "python3.3"
+      - "python3.3dmu"
+      - "python3.3dm"
+      - "python3.3du"
+      - "python3.3d"
+      - "python3.2mu"
+      - "python3.2m"
+      - "python3.2u"
+      - "python3.2"
+      - "python3.2dmu"
+      - "python3.2dm"
+      - "python3.2du"
+      - "python3.2d"
+      - "python3.1mu"
+      - "python3.1m"
+      - "python3.1u"
+      - "python3.1"
+      - "python3.1dmu"
+      - "python3.1dm"
+      - "python3.1du"
+      - "python3.1d"
+      - "python3.0mu"
+      - "python3.0m"
+      - "python3.0u"
+      - "python3.0"
+      - "python3.0dmu"
+      - "python3.0dm"
+      - "python3.0du"
+      - "python3.0d"
+      - "python3"
+      - "python"
+    candidate_directories:
+      - "/home/bogdanoff/.pyenv/shims/bin/"
+      - "/home/bogdanoff/.pyenv/shims/Scripts/"
+      - "/home/bogdanoff/.pyenv/shims/"
+      - "/usr/local/bin/bin/"
+      - "/usr/local/bin/Scripts/"
+      - "/usr/local/bin/"
+      - "/usr/bin/bin/"
+      - "/usr/bin/Scripts/"
+      - "/usr/bin/"
+      - "/bin/bin/"
+      - "/bin/Scripts/"
+      - "/bin/"
+      - "/usr/local/sbin/bin/"
+      - "/usr/local/sbin/Scripts/"
+      - "/usr/local/sbin/"
+      - "/usr/bin/site_perl/bin/"
+      - "/usr/bin/site_perl/Scripts/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/bin/"
+      - "/usr/bin/vendor_perl/Scripts/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/bin/"
+      - "/usr/bin/core_perl/Scripts/"
+      - "/usr/bin/core_perl/"
+      - "/usr/local/bin/bin/"
+      - "/usr/local/bin/Scripts/"
+      - "/usr/local/bin/"
+      - "/usr/local/sbin/bin/"
+      - "/usr/local/sbin/Scripts/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/local/Scripts/"
+      - "/usr/local/"
+      - "/usr/bin/bin/"
+      - "/usr/bin/Scripts/"
+      - "/usr/bin/"
+      - "/usr/sbin/bin/"
+      - "/usr/sbin/Scripts/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/usr/Scripts/"
+      - "/usr/"
+      - "/bin/bin/"
+      - "/bin/Scripts/"
+      - "/bin/"
+      - "/sbin/bin/"
+      - "/sbin/Scripts/"
+      - "/sbin/"
+      - "/usr/X11R6/bin/bin/"
+      - "/usr/X11R6/bin/Scripts/"
+      - "/usr/X11R6/bin/"
+      - "/usr/X11R6/sbin/bin/"
+      - "/usr/X11R6/sbin/Scripts/"
+      - "/usr/X11R6/sbin/"
+      - "/usr/X11R6/bin/"
+      - "/usr/X11R6/Scripts/"
+      - "/usr/X11R6/"
+      - "/usr/pkg/bin/bin/"
+      - "/usr/pkg/bin/Scripts/"
+      - "/usr/pkg/bin/"
+      - "/usr/pkg/sbin/bin/"
+      - "/usr/pkg/sbin/Scripts/"
+      - "/usr/pkg/sbin/"
+      - "/usr/pkg/bin/"
+      - "/usr/pkg/Scripts/"
+      - "/usr/pkg/"
+      - "/opt/bin/bin/"
+      - "/opt/bin/Scripts/"
+      - "/opt/bin/"
+      - "/opt/sbin/bin/"
+      - "/opt/sbin/Scripts/"
+      - "/opt/sbin/"
+      - "/opt/bin/"
+      - "/opt/Scripts/"
+      - "/opt/"
+    searched_directories:
+      - "/home/bogdanoff/.pyenv/shims/bin/python3.15mu"
+      - "/home/bogdanoff/.pyenv/shims/bin/python3.15m"
+      - "/home/bogdanoff/.pyenv/shims/bin/python3.15u"
+      - "/home/bogdanoff/.pyenv/shims/bin/python3.15"
+      - "/home/bogdanoff/.pyenv/shims/bin/python3.15dmu"
+      - "/home/bogdanoff/.pyenv/shims/bin/python3.15dm"
+      - "/home/bogdanoff/.pyenv/shims/bin/python3.15du"
+      - "/home/bogdanoff/.pyenv/shims/bin/python3.15d"
+      - "/home/bogdanoff/.pyenv/shims/bin/python3.14mu"
+      - "/home/bogdanoff/.pyenv/shims/bin/python3.14m"
+      - "/home/bogdanoff/.pyenv/shims/bin/python3.14u"
+      - "/home/bogdanoff/.pyenv/shims/bin/python3.14"
+      - "/home/bogdanoff/.pyenv/shims/bin/python3.14dmu"
+      - "/home/bogdanoff/.pyenv/shims/bin/python3.14dm"
+      - "/home/bogdanoff/.pyenv/shims/bin/python3.14du"
+      - "/home/bogdanoff/.pyenv/shims/bin/python3.14d"
+      - "/home/bogdanoff/.pyenv/shims/bin/python3.13mu"
+      - "/home/bogdanoff/.pyenv/shims/bin/python3.13m"
+      - "/home/bogdanoff/.pyenv/shims/bin/python3.13u"
+      - "/home/bogdanoff/.pyenv/shims/bin/python3.13"
+      - "/home/bogdanoff/.pyenv/shims/bin/python3.13dmu"
+      - "/home/bogdanoff/.pyenv/shims/bin/python3.13dm"
+      - "/home/bogdanoff/.pyenv/shims/bin/python3.13du"
+      - "/home/bogdanoff/.pyenv/shims/bin/python3.13d"
+      - "/home/bogdanoff/.pyenv/shims/bin/python3.12mu"
+      - "/home/bogdanoff/.pyenv/shims/bin/python3.12m"
+      - "/home/bogdanoff/.pyenv/shims/bin/python3.12u"
+      - "/home/bogdanoff/.pyenv/shims/bin/python3.12"
+      - "/home/bogdanoff/.pyenv/shims/bin/python3.12dmu"
+      - "/home/bogdanoff/.pyenv/shims/bin/python3.12dm"
+      - "/home/bogdanoff/.pyenv/shims/bin/python3.12du"
+      - "/home/bogdanoff/.pyenv/shims/bin/python3.12d"
+      - "/home/bogdanoff/.pyenv/shims/bin/python3.11mu"
+      - "/home/bogdanoff/.pyenv/shims/bin/python3.11m"
+      - "/home/bogdanoff/.pyenv/shims/bin/python3.11u"
+      - "/home/bogdanoff/.pyenv/shims/bin/python3.11"
+      - "/home/bogdanoff/.pyenv/shims/bin/python3.11dmu"
+      - "/home/bogdanoff/.pyenv/shims/bin/python3.11dm"
+      - "/home/bogdanoff/.pyenv/shims/bin/python3.11du"
+      - "/home/bogdanoff/.pyenv/shims/bin/python3.11d"
+      - "/home/bogdanoff/.pyenv/shims/bin/python3.10mu"
+      - "/home/bogdanoff/.pyenv/shims/bin/python3.10m"
+      - "/home/bogdanoff/.pyenv/shims/bin/python3.10u"
+      - "/home/bogdanoff/.pyenv/shims/bin/python3.10"
+      - "/home/bogdanoff/.pyenv/shims/bin/python3.10dmu"
+      - "/home/bogdanoff/.pyenv/shims/bin/python3.10dm"
+      - "/home/bogdanoff/.pyenv/shims/bin/python3.10du"
+      - "/home/bogdanoff/.pyenv/shims/bin/python3.10d"
+      - "/home/bogdanoff/.pyenv/shims/bin/python3.9mu"
+      - "/home/bogdanoff/.pyenv/shims/bin/python3.9m"
+      - "/home/bogdanoff/.pyenv/shims/bin/python3.9u"
+      - "/home/bogdanoff/.pyenv/shims/bin/python3.9"
+      - "/home/bogdanoff/.pyenv/shims/bin/python3.9dmu"
+      - "/home/bogdanoff/.pyenv/shims/bin/python3.9dm"
+      - "/home/bogdanoff/.pyenv/shims/bin/python3.9du"
+      - "/home/bogdanoff/.pyenv/shims/bin/python3.9d"
+      - "/home/bogdanoff/.pyenv/shims/bin/python3.8mu"
+      - "/home/bogdanoff/.pyenv/shims/bin/python3.8m"
+      - "/home/bogdanoff/.pyenv/shims/bin/python3.8u"
+      - "/home/bogdanoff/.pyenv/shims/bin/python3.8"
+      - "/home/bogdanoff/.pyenv/shims/bin/python3.8dmu"
+      - "/home/bogdanoff/.pyenv/shims/bin/python3.8dm"
+      - "/home/bogdanoff/.pyenv/shims/bin/python3.8du"
+      - "/home/bogdanoff/.pyenv/shims/bin/python3.8d"
+      - "/home/bogdanoff/.pyenv/shims/bin/python3.7mu"
+      - "/home/bogdanoff/.pyenv/shims/bin/python3.7m"
+      - "/home/bogdanoff/.pyenv/shims/bin/python3.7u"
+      - "/home/bogdanoff/.pyenv/shims/bin/python3.7"
+      - "/home/bogdanoff/.pyenv/shims/bin/python3.7dmu"
+      - "/home/bogdanoff/.pyenv/shims/bin/python3.7dm"
+      - "/home/bogdanoff/.pyenv/shims/bin/python3.7du"
+      - "/home/bogdanoff/.pyenv/shims/bin/python3.7d"
+      - "/home/bogdanoff/.pyenv/shims/bin/python3.6mu"
+      - "/home/bogdanoff/.pyenv/shims/bin/python3.6m"
+      - "/home/bogdanoff/.pyenv/shims/bin/python3.6u"
+      - "/home/bogdanoff/.pyenv/shims/bin/python3.6"
+      - "/home/bogdanoff/.pyenv/shims/bin/python3.6dmu"
+      - "/home/bogdanoff/.pyenv/shims/bin/python3.6dm"
+      - "/home/bogdanoff/.pyenv/shims/bin/python3.6du"
+      - "/home/bogdanoff/.pyenv/shims/bin/python3.6d"
+      - "/home/bogdanoff/.pyenv/shims/bin/python3.5mu"
+      - "/home/bogdanoff/.pyenv/shims/bin/python3.5m"
+      - "/home/bogdanoff/.pyenv/shims/bin/python3.5u"
+      - "/home/bogdanoff/.pyenv/shims/bin/python3.5"
+      - "/home/bogdanoff/.pyenv/shims/bin/python3.5dmu"
+      - "/home/bogdanoff/.pyenv/shims/bin/python3.5dm"
+      - "/home/bogdanoff/.pyenv/shims/bin/python3.5du"
+      - "/home/bogdanoff/.pyenv/shims/bin/python3.5d"
+      - "/home/bogdanoff/.pyenv/shims/bin/python3.4mu"
+      - "/home/bogdanoff/.pyenv/shims/bin/python3.4m"
+      - "/home/bogdanoff/.pyenv/shims/bin/python3.4u"
+      - "/home/bogdanoff/.pyenv/shims/bin/python3.4"
+      - "/home/bogdanoff/.pyenv/shims/bin/python3.4dmu"
+      - "/home/bogdanoff/.pyenv/shims/bin/python3.4dm"
+      - "/home/bogdanoff/.pyenv/shims/bin/python3.4du"
+      - "/home/bogdanoff/.pyenv/shims/bin/python3.4d"
+      - "/home/bogdanoff/.pyenv/shims/bin/python3.3mu"
+      - "/home/bogdanoff/.pyenv/shims/bin/python3.3m"
+      - "/home/bogdanoff/.pyenv/shims/bin/python3.3u"
+      - "/home/bogdanoff/.pyenv/shims/bin/python3.3"
+      - "/home/bogdanoff/.pyenv/shims/bin/python3.3dmu"
+      - "/home/bogdanoff/.pyenv/shims/bin/python3.3dm"
+      - "/home/bogdanoff/.pyenv/shims/bin/python3.3du"
+      - "/home/bogdanoff/.pyenv/shims/bin/python3.3d"
+      - "/home/bogdanoff/.pyenv/shims/bin/python3.2mu"
+      - "/home/bogdanoff/.pyenv/shims/bin/python3.2m"
+      - "/home/bogdanoff/.pyenv/shims/bin/python3.2u"
+      - "/home/bogdanoff/.pyenv/shims/bin/python3.2"
+      - "/home/bogdanoff/.pyenv/shims/bin/python3.2dmu"
+      - "/home/bogdanoff/.pyenv/shims/bin/python3.2dm"
+      - "/home/bogdanoff/.pyenv/shims/bin/python3.2du"
+      - "/home/bogdanoff/.pyenv/shims/bin/python3.2d"
+      - "/home/bogdanoff/.pyenv/shims/bin/python3.1mu"
+      - "/home/bogdanoff/.pyenv/shims/bin/python3.1m"
+      - "/home/bogdanoff/.pyenv/shims/bin/python3.1u"
+      - "/home/bogdanoff/.pyenv/shims/bin/python3.1"
+      - "/home/bogdanoff/.pyenv/shims/bin/python3.1dmu"
+      - "/home/bogdanoff/.pyenv/shims/bin/python3.1dm"
+      - "/home/bogdanoff/.pyenv/shims/bin/python3.1du"
+      - "/home/bogdanoff/.pyenv/shims/bin/python3.1d"
+      - "/home/bogdanoff/.pyenv/shims/bin/python3.0mu"
+      - "/home/bogdanoff/.pyenv/shims/bin/python3.0m"
+      - "/home/bogdanoff/.pyenv/shims/bin/python3.0u"
+      - "/home/bogdanoff/.pyenv/shims/bin/python3.0"
+      - "/home/bogdanoff/.pyenv/shims/bin/python3.0dmu"
+      - "/home/bogdanoff/.pyenv/shims/bin/python3.0dm"
+      - "/home/bogdanoff/.pyenv/shims/bin/python3.0du"
+      - "/home/bogdanoff/.pyenv/shims/bin/python3.0d"
+      - "/home/bogdanoff/.pyenv/shims/bin/python3"
+      - "/home/bogdanoff/.pyenv/shims/bin/python"
+      - "/home/bogdanoff/.pyenv/shims/Scripts/python3.15mu"
+      - "/home/bogdanoff/.pyenv/shims/Scripts/python3.15m"
+      - "/home/bogdanoff/.pyenv/shims/Scripts/python3.15u"
+      - "/home/bogdanoff/.pyenv/shims/Scripts/python3.15"
+      - "/home/bogdanoff/.pyenv/shims/Scripts/python3.15dmu"
+      - "/home/bogdanoff/.pyenv/shims/Scripts/python3.15dm"
+      - "/home/bogdanoff/.pyenv/shims/Scripts/python3.15du"
+      - "/home/bogdanoff/.pyenv/shims/Scripts/python3.15d"
+      - "/home/bogdanoff/.pyenv/shims/Scripts/python3.14mu"
+      - "/home/bogdanoff/.pyenv/shims/Scripts/python3.14m"
+      - "/home/bogdanoff/.pyenv/shims/Scripts/python3.14u"
+      - "/home/bogdanoff/.pyenv/shims/Scripts/python3.14"
+      - "/home/bogdanoff/.pyenv/shims/Scripts/python3.14dmu"
+      - "/home/bogdanoff/.pyenv/shims/Scripts/python3.14dm"
+      - "/home/bogdanoff/.pyenv/shims/Scripts/python3.14du"
+      - "/home/bogdanoff/.pyenv/shims/Scripts/python3.14d"
+      - "/home/bogdanoff/.pyenv/shims/Scripts/python3.13mu"
+      - "/home/bogdanoff/.pyenv/shims/Scripts/python3.13m"
+      - "/home/bogdanoff/.pyenv/shims/Scripts/python3.13u"
+      - "/home/bogdanoff/.pyenv/shims/Scripts/python3.13"
+      - "/home/bogdanoff/.pyenv/shims/Scripts/python3.13dmu"
+      - "/home/bogdanoff/.pyenv/shims/Scripts/python3.13dm"
+      - "/home/bogdanoff/.pyenv/shims/Scripts/python3.13du"
+      - "/home/bogdanoff/.pyenv/shims/Scripts/python3.13d"
+      - "/home/bogdanoff/.pyenv/shims/Scripts/python3.12mu"
+      - "/home/bogdanoff/.pyenv/shims/Scripts/python3.12m"
+      - "/home/bogdanoff/.pyenv/shims/Scripts/python3.12u"
+      - "/home/bogdanoff/.pyenv/shims/Scripts/python3.12"
+      - "/home/bogdanoff/.pyenv/shims/Scripts/python3.12dmu"
+      - "/home/bogdanoff/.pyenv/shims/Scripts/python3.12dm"
+      - "/home/bogdanoff/.pyenv/shims/Scripts/python3.12du"
+      - "/home/bogdanoff/.pyenv/shims/Scripts/python3.12d"
+      - "/home/bogdanoff/.pyenv/shims/Scripts/python3.11mu"
+      - "/home/bogdanoff/.pyenv/shims/Scripts/python3.11m"
+      - "/home/bogdanoff/.pyenv/shims/Scripts/python3.11u"
+      - "/home/bogdanoff/.pyenv/shims/Scripts/python3.11"
+      - "/home/bogdanoff/.pyenv/shims/Scripts/python3.11dmu"
+      - "/home/bogdanoff/.pyenv/shims/Scripts/python3.11dm"
+      - "/home/bogdanoff/.pyenv/shims/Scripts/python3.11du"
+      - "/home/bogdanoff/.pyenv/shims/Scripts/python3.11d"
+      - "/home/bogdanoff/.pyenv/shims/Scripts/python3.10mu"
+      - "/home/bogdanoff/.pyenv/shims/Scripts/python3.10m"
+      - "/home/bogdanoff/.pyenv/shims/Scripts/python3.10u"
+      - "/home/bogdanoff/.pyenv/shims/Scripts/python3.10"
+      - "/home/bogdanoff/.pyenv/shims/Scripts/python3.10dmu"
+      - "/home/bogdanoff/.pyenv/shims/Scripts/python3.10dm"
+      - "/home/bogdanoff/.pyenv/shims/Scripts/python3.10du"
+      - "/home/bogdanoff/.pyenv/shims/Scripts/python3.10d"
+      - "/home/bogdanoff/.pyenv/shims/Scripts/python3.9mu"
+      - "/home/bogdanoff/.pyenv/shims/Scripts/python3.9m"
+      - "/home/bogdanoff/.pyenv/shims/Scripts/python3.9u"
+      - "/home/bogdanoff/.pyenv/shims/Scripts/python3.9"
+      - "/home/bogdanoff/.pyenv/shims/Scripts/python3.9dmu"
+      - "/home/bogdanoff/.pyenv/shims/Scripts/python3.9dm"
+      - "/home/bogdanoff/.pyenv/shims/Scripts/python3.9du"
+      - "/home/bogdanoff/.pyenv/shims/Scripts/python3.9d"
+      - "/home/bogdanoff/.pyenv/shims/Scripts/python3.8mu"
+      - "/home/bogdanoff/.pyenv/shims/Scripts/python3.8m"
+      - "/home/bogdanoff/.pyenv/shims/Scripts/python3.8u"
+      - "/home/bogdanoff/.pyenv/shims/Scripts/python3.8"
+      - "/home/bogdanoff/.pyenv/shims/Scripts/python3.8dmu"
+      - "/home/bogdanoff/.pyenv/shims/Scripts/python3.8dm"
+      - "/home/bogdanoff/.pyenv/shims/Scripts/python3.8du"
+      - "/home/bogdanoff/.pyenv/shims/Scripts/python3.8d"
+      - "/home/bogdanoff/.pyenv/shims/Scripts/python3.7mu"
+      - "/home/bogdanoff/.pyenv/shims/Scripts/python3.7m"
+      - "/home/bogdanoff/.pyenv/shims/Scripts/python3.7u"
+      - "/home/bogdanoff/.pyenv/shims/Scripts/python3.7"
+      - "/home/bogdanoff/.pyenv/shims/Scripts/python3.7dmu"
+      - "/home/bogdanoff/.pyenv/shims/Scripts/python3.7dm"
+      - "/home/bogdanoff/.pyenv/shims/Scripts/python3.7du"
+      - "/home/bogdanoff/.pyenv/shims/Scripts/python3.7d"
+      - "/home/bogdanoff/.pyenv/shims/Scripts/python3.6mu"
+      - "/home/bogdanoff/.pyenv/shims/Scripts/python3.6m"
+      - "/home/bogdanoff/.pyenv/shims/Scripts/python3.6u"
+      - "/home/bogdanoff/.pyenv/shims/Scripts/python3.6"
+      - "/home/bogdanoff/.pyenv/shims/Scripts/python3.6dmu"
+      - "/home/bogdanoff/.pyenv/shims/Scripts/python3.6dm"
+      - "/home/bogdanoff/.pyenv/shims/Scripts/python3.6du"
+      - "/home/bogdanoff/.pyenv/shims/Scripts/python3.6d"
+      - "/home/bogdanoff/.pyenv/shims/Scripts/python3.5mu"
+      - "/home/bogdanoff/.pyenv/shims/Scripts/python3.5m"
+      - "/home/bogdanoff/.pyenv/shims/Scripts/python3.5u"
+      - "/home/bogdanoff/.pyenv/shims/Scripts/python3.5"
+      - "/home/bogdanoff/.pyenv/shims/Scripts/python3.5dmu"
+      - "/home/bogdanoff/.pyenv/shims/Scripts/python3.5dm"
+      - "/home/bogdanoff/.pyenv/shims/Scripts/python3.5du"
+      - "/home/bogdanoff/.pyenv/shims/Scripts/python3.5d"
+      - "/home/bogdanoff/.pyenv/shims/Scripts/python3.4mu"
+      - "/home/bogdanoff/.pyenv/shims/Scripts/python3.4m"
+      - "/home/bogdanoff/.pyenv/shims/Scripts/python3.4u"
+      - "/home/bogdanoff/.pyenv/shims/Scripts/python3.4"
+      - "/home/bogdanoff/.pyenv/shims/Scripts/python3.4dmu"
+      - "/home/bogdanoff/.pyenv/shims/Scripts/python3.4dm"
+      - "/home/bogdanoff/.pyenv/shims/Scripts/python3.4du"
+      - "/home/bogdanoff/.pyenv/shims/Scripts/python3.4d"
+      - "/home/bogdanoff/.pyenv/shims/Scripts/python3.3mu"
+      - "/home/bogdanoff/.pyenv/shims/Scripts/python3.3m"
+      - "/home/bogdanoff/.pyenv/shims/Scripts/python3.3u"
+      - "/home/bogdanoff/.pyenv/shims/Scripts/python3.3"
+      - "/home/bogdanoff/.pyenv/shims/Scripts/python3.3dmu"
+      - "/home/bogdanoff/.pyenv/shims/Scripts/python3.3dm"
+      - "/home/bogdanoff/.pyenv/shims/Scripts/python3.3du"
+      - "/home/bogdanoff/.pyenv/shims/Scripts/python3.3d"
+      - "/home/bogdanoff/.pyenv/shims/Scripts/python3.2mu"
+      - "/home/bogdanoff/.pyenv/shims/Scripts/python3.2m"
+      - "/home/bogdanoff/.pyenv/shims/Scripts/python3.2u"
+      - "/home/bogdanoff/.pyenv/shims/Scripts/python3.2"
+      - "/home/bogdanoff/.pyenv/shims/Scripts/python3.2dmu"
+      - "/home/bogdanoff/.pyenv/shims/Scripts/python3.2dm"
+      - "/home/bogdanoff/.pyenv/shims/Scripts/python3.2du"
+      - "/home/bogdanoff/.pyenv/shims/Scripts/python3.2d"
+      - "/home/bogdanoff/.pyenv/shims/Scripts/python3.1mu"
+      - "/home/bogdanoff/.pyenv/shims/Scripts/python3.1m"
+      - "/home/bogdanoff/.pyenv/shims/Scripts/python3.1u"
+      - "/home/bogdanoff/.pyenv/shims/Scripts/python3.1"
+      - "/home/bogdanoff/.pyenv/shims/Scripts/python3.1dmu"
+      - "/home/bogdanoff/.pyenv/shims/Scripts/python3.1dm"
+      - "/home/bogdanoff/.pyenv/shims/Scripts/python3.1du"
+      - "/home/bogdanoff/.pyenv/shims/Scripts/python3.1d"
+      - "/home/bogdanoff/.pyenv/shims/Scripts/python3.0mu"
+      - "/home/bogdanoff/.pyenv/shims/Scripts/python3.0m"
+      - "/home/bogdanoff/.pyenv/shims/Scripts/python3.0u"
+      - "/home/bogdanoff/.pyenv/shims/Scripts/python3.0"
+      - "/home/bogdanoff/.pyenv/shims/Scripts/python3.0dmu"
+      - "/home/bogdanoff/.pyenv/shims/Scripts/python3.0dm"
+      - "/home/bogdanoff/.pyenv/shims/Scripts/python3.0du"
+      - "/home/bogdanoff/.pyenv/shims/Scripts/python3.0d"
+      - "/home/bogdanoff/.pyenv/shims/Scripts/python3"
+      - "/home/bogdanoff/.pyenv/shims/Scripts/python"
+      - "/home/bogdanoff/.pyenv/shims/python3.15mu"
+      - "/home/bogdanoff/.pyenv/shims/python3.15m"
+      - "/home/bogdanoff/.pyenv/shims/python3.15u"
+      - "/home/bogdanoff/.pyenv/shims/python3.15"
+      - "/home/bogdanoff/.pyenv/shims/python3.15dmu"
+      - "/home/bogdanoff/.pyenv/shims/python3.15dm"
+      - "/home/bogdanoff/.pyenv/shims/python3.15du"
+      - "/home/bogdanoff/.pyenv/shims/python3.15d"
+      - "/home/bogdanoff/.pyenv/shims/python3.14mu"
+      - "/home/bogdanoff/.pyenv/shims/python3.14m"
+      - "/home/bogdanoff/.pyenv/shims/python3.14u"
+      - "/home/bogdanoff/.pyenv/shims/python3.14"
+      - "/home/bogdanoff/.pyenv/shims/python3.14dmu"
+      - "/home/bogdanoff/.pyenv/shims/python3.14dm"
+      - "/home/bogdanoff/.pyenv/shims/python3.14du"
+      - "/home/bogdanoff/.pyenv/shims/python3.14d"
+      - "/home/bogdanoff/.pyenv/shims/python3.13mu"
+      - "/home/bogdanoff/.pyenv/shims/python3.13m"
+      - "/home/bogdanoff/.pyenv/shims/python3.13u"
+      - "/home/bogdanoff/.pyenv/shims/python3.13"
+      - "/home/bogdanoff/.pyenv/shims/python3.13dmu"
+      - "/home/bogdanoff/.pyenv/shims/python3.13dm"
+      - "/home/bogdanoff/.pyenv/shims/python3.13du"
+      - "/home/bogdanoff/.pyenv/shims/python3.13d"
+      - "/home/bogdanoff/.pyenv/shims/python3.12mu"
+      - "/home/bogdanoff/.pyenv/shims/python3.12m"
+      - "/home/bogdanoff/.pyenv/shims/python3.12u"
+      - "/home/bogdanoff/.pyenv/shims/python3.12"
+      - "/home/bogdanoff/.pyenv/shims/python3.12dmu"
+      - "/home/bogdanoff/.pyenv/shims/python3.12dm"
+      - "/home/bogdanoff/.pyenv/shims/python3.12du"
+      - "/home/bogdanoff/.pyenv/shims/python3.12d"
+      - "/home/bogdanoff/.pyenv/shims/python3.11mu"
+      - "/home/bogdanoff/.pyenv/shims/python3.11m"
+      - "/home/bogdanoff/.pyenv/shims/python3.11u"
+    found: "/home/bogdanoff/.pyenv/shims/python3.11"
+    search_context:
+      ENV{PATH}:
+        - "/home/bogdanoff/.pyenv/shims"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/local/sbin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/usr"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "/usr/share/cmake/Modules/CheckCSourceCompiles.cmake:103 (cmake_check_source_compiles)"
+      - "/usr/share/cmake/Modules/FindThreads.cmake:160 (check_c_source_compiles)"
+      - "/usr/share/cmake/Modules/FindThreads.cmake:226 (_threads_check_libc)"
+      - "build/_deps/googletest-src/googletest/cmake/internal_utils.cmake:70 (find_package)"
+      - "build/_deps/googletest-src/googletest/CMakeLists.txt:88 (config_compiler_and_linker)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "/home/bogdanoff/study/FIIT_SP/build/CMakeFiles/CMakeScratch/TryCompile-sxFHRU"
+      binary: "/home/bogdanoff/study/FIIT_SP/build/CMakeFiles/CMakeScratch/TryCompile-sxFHRU"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: '/home/bogdanoff/study/FIIT_SP/build/CMakeFiles/CMakeScratch/TryCompile-sxFHRU'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_4791c/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_4791c.dir/build.make CMakeFiles/cmTC_4791c.dir/build
+        make[1]: вход в каталог «/home/bogdanoff/study/FIIT_SP/build/CMakeFiles/CMakeScratch/TryCompile-sxFHRU»
+        Building C object CMakeFiles/cmTC_4791c.dir/src.c.o
+        /usr/bin/cc -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_4791c.dir/src.c.o -c /home/bogdanoff/study/FIIT_SP/build/CMakeFiles/CMakeScratch/TryCompile-sxFHRU/src.c
+        Linking C executable cmTC_4791c
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4791c.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_4791c.dir/src.c.o -o cmTC_4791c
+        make[1]: выход из каталога «/home/bogdanoff/study/FIIT_SP/build/CMakeFiles/CMakeScratch/TryCompile-sxFHRU»
+        
+      exitCode: 0
+  -
+    kind: "find_package-v1"
+    backtrace:
+      - "/usr/lib/cmake/Boost-1.89.0/BoostConfig.cmake:141 (find_package)"
+      - "/usr/lib/cmake/Boost-1.89.0/BoostConfig.cmake:215 (boost_find_component)"
+      - "/usr/share/cmake/Modules/FindBoost.cmake:610 (find_package)"
+      - "CMakeLists.txt:18 (find_package)"
+    name: "boost_headers"
+    configs:
+      -
+        filename: "boost_headersConfig.cmake"
+        kind: "cmake"
+      -
+        filename: "boost_headers-config.cmake"
+        kind: "cmake"
+    version_request:
+      version: "1.89.0"
+      version_complete: "1.89.0"
+      exact: true
+    settings:
+      required: "required_explicit"
+      quiet: true
+      global: false
+      policy_scope: true
+      bypass_provider: false
+      hints:
+        - "/usr/lib/cmake"
+      names:
+        - "boost_headers"
+      path_suffixes:
+        - ""
+      paths:
+        CMAKE_FIND_USE_CMAKE_PATH: true
+        CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+        CMAKE_FIND_USE_INSTALL_PREFIX: true
+        CMAKE_FIND_USE_PACKAGE_ROOT_PATH: true
+        CMAKE_FIND_USE_CMAKE_PACKAGE_REGISTRY: true
+        CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY: true
+        CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
+    candidates:
+      -
+        path: "/home/bogdanoff/study/FIIT_SP/build/CMakeFiles/pkgRedirects/boost_headersConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/bogdanoff/study/FIIT_SP/build/CMakeFiles/pkgRedirects/boost_headers-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/lib/cmake/boost_headersConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/lib/cmake/boost_headers-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/lib/cmake/boost_headers-1.89.0/boost_headersConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+    found:
+      path: "/usr/lib/cmake/boost_headers-1.89.0/boost_headers-config.cmake"
+      mode: "config"
+      version: "1.89.0"
+    search_context:
+      ENV{PATH}:
+        - "/home/bogdanoff/.pyenv/shims"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/local/sbin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/usr"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+  -
+    kind: "find_package-v1"
+    backtrace:
+      - "/usr/lib/cmake/Boost-1.89.0/BoostConfig.cmake:141 (find_package)"
+      - "/usr/lib/cmake/Boost-1.89.0/BoostConfig.cmake:262 (boost_find_component)"
+      - "/usr/share/cmake/Modules/FindBoost.cmake:610 (find_package)"
+      - "CMakeLists.txt:18 (find_package)"
+    name: "boost_container"
+    configs:
+      -
+        filename: "boost_containerConfig.cmake"
+        kind: "cmake"
+      -
+        filename: "boost_container-config.cmake"
+        kind: "cmake"
+    version_request:
+      version: "1.89.0"
+      version_complete: "1.89.0"
+      exact: true
+    settings:
+      required: "required_explicit"
+      quiet: true
+      global: false
+      policy_scope: true
+      bypass_provider: false
+      hints:
+        - "/usr/lib/cmake"
+      names:
+        - "boost_container"
+      path_suffixes:
+        - ""
+      paths:
+        CMAKE_FIND_USE_CMAKE_PATH: true
+        CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+        CMAKE_FIND_USE_INSTALL_PREFIX: true
+        CMAKE_FIND_USE_PACKAGE_ROOT_PATH: true
+        CMAKE_FIND_USE_CMAKE_PACKAGE_REGISTRY: true
+        CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY: true
+        CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
+    candidates:
+      -
+        path: "/home/bogdanoff/study/FIIT_SP/build/CMakeFiles/pkgRedirects/boost_containerConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/bogdanoff/study/FIIT_SP/build/CMakeFiles/pkgRedirects/boost_container-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/lib/cmake/boost_containerConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/lib/cmake/boost_container-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/lib/cmake/boost_container-1.89.0/boost_containerConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+    found:
+      path: "/usr/lib/cmake/boost_container-1.89.0/boost_container-config.cmake"
+      mode: "config"
+      version: "1.89.0"
+    search_context:
+      ENV{PATH}:
+        - "/home/bogdanoff/.pyenv/shims"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/local/sbin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/usr"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+  -
+    kind: "find_package-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/FindBoost.cmake:610 (find_package)"
+      - "CMakeLists.txt:18 (find_package)"
+    name: "Boost"
+    components:
+      -
+        name: "container"
+        required: true
+        found: true
+    configs:
+      -
+        filename: "BoostConfig.cmake"
+        kind: "cmake"
+      -
+        filename: "boost-config.cmake"
+        kind: "cmake"
+    version_request:
+      exact: false
+    settings:
+      required: "optional"
+      quiet: true
+      global: false
+      policy_scope: true
+      bypass_provider: false
+      names:
+        - "Boost"
+      path_suffixes:
+        - ""
+      paths:
+        CMAKE_FIND_USE_CMAKE_PATH: true
+        CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+        CMAKE_FIND_USE_INSTALL_PREFIX: true
+        CMAKE_FIND_USE_PACKAGE_ROOT_PATH: true
+        CMAKE_FIND_USE_CMAKE_PACKAGE_REGISTRY: true
+        CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY: true
+        CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
+    candidates:
+      -
+        path: "/home/bogdanoff/study/FIIT_SP/build/CMakeFiles/pkgRedirects/BoostConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/bogdanoff/study/FIIT_SP/build/CMakeFiles/pkgRedirects/boost-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/bogdanoff/.pyenv/shims/BoostConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/bogdanoff/.pyenv/shims/boost-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/local/BoostConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/local/boost-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/BoostConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/boost-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/lib/cmake/boost_wserialization-1.89.0/BoostConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/lib/cmake/boost_wserialization-1.89.0/boost-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/lib/cmake/boost_wave-1.89.0/BoostConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/lib/cmake/boost_wave-1.89.0/boost-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/lib/cmake/boost_url-1.89.0/BoostConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/lib/cmake/boost_url-1.89.0/boost-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/lib/cmake/boost_unit_test_framework-1.89.0/BoostConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/lib/cmake/boost_unit_test_framework-1.89.0/boost-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/lib/cmake/boost_type_erasure-1.89.0/BoostConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/lib/cmake/boost_type_erasure-1.89.0/boost-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/lib/cmake/boost_timer-1.89.0/BoostConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/lib/cmake/boost_timer-1.89.0/boost-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/lib/cmake/boost_thread-1.89.0/BoostConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/lib/cmake/boost_thread-1.89.0/boost-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/lib/cmake/boost_test_exec_monitor-1.89.0/BoostConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/lib/cmake/boost_test_exec_monitor-1.89.0/boost-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/lib/cmake/boost_stacktrace_noop-1.89.0/BoostConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/lib/cmake/boost_stacktrace_noop-1.89.0/boost-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/lib/cmake/boost_stacktrace_from_exception-1.89.0/BoostConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/lib/cmake/boost_stacktrace_from_exception-1.89.0/boost-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/lib/cmake/boost_stacktrace_basic-1.89.0/BoostConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/lib/cmake/boost_stacktrace_basic-1.89.0/boost-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/lib/cmake/boost_stacktrace_addr2line-1.89.0/BoostConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/lib/cmake/boost_stacktrace_addr2line-1.89.0/boost-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/lib/cmake/boost_serialization-1.89.0/BoostConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/lib/cmake/boost_serialization-1.89.0/boost-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/lib/cmake/boost_regex-1.89.0/BoostConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/lib/cmake/boost_regex-1.89.0/boost-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/lib/cmake/boost_random-1.89.0/BoostConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/lib/cmake/boost_random-1.89.0/boost-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/lib/cmake/boost_python-1.89.0/BoostConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/lib/cmake/boost_python-1.89.0/boost-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/lib/cmake/boost_program_options-1.89.0/BoostConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/lib/cmake/boost_program_options-1.89.0/boost-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/lib/cmake/boost_process-1.89.0/BoostConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/lib/cmake/boost_process-1.89.0/boost-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/lib/cmake/boost_prg_exec_monitor-1.89.0/BoostConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/lib/cmake/boost_prg_exec_monitor-1.89.0/boost-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/lib/cmake/boost_numpy-1.89.0/BoostConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/lib/cmake/boost_numpy-1.89.0/boost-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/lib/cmake/boost_nowide-1.89.0/BoostConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/lib/cmake/boost_nowide-1.89.0/boost-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/lib/cmake/boost_mpi_python-1.89.0/BoostConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/lib/cmake/boost_mpi_python-1.89.0/boost-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/lib/cmake/boost_mpi-1.89.0/BoostConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/lib/cmake/boost_mpi-1.89.0/boost-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/lib/cmake/boost_math_tr1l-1.89.0/BoostConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/lib/cmake/boost_math_tr1l-1.89.0/boost-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/lib/cmake/boost_math_tr1f-1.89.0/BoostConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/lib/cmake/boost_math_tr1f-1.89.0/boost-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/lib/cmake/boost_math_tr1-1.89.0/BoostConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/lib/cmake/boost_math_tr1-1.89.0/boost-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/lib/cmake/boost_math_c99l-1.89.0/BoostConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/lib/cmake/boost_math_c99l-1.89.0/boost-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/lib/cmake/boost_math_c99f-1.89.0/BoostConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/lib/cmake/boost_math_c99f-1.89.0/boost-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/lib/cmake/boost_math_c99-1.89.0/BoostConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/lib/cmake/boost_math_c99-1.89.0/boost-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/lib/cmake/boost_math-1.89.0/BoostConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/lib/cmake/boost_math-1.89.0/boost-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/lib/cmake/boost_log_setup-1.89.0/BoostConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/lib/cmake/boost_log_setup-1.89.0/boost-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/lib/cmake/boost_log-1.89.0/BoostConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/lib/cmake/boost_log-1.89.0/boost-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/lib/cmake/boost_locale-1.89.0/BoostConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/lib/cmake/boost_locale-1.89.0/boost-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/lib/cmake/boost_json-1.89.0/BoostConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/lib/cmake/boost_json-1.89.0/boost-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/lib/cmake/boost_iostreams-1.89.0/BoostConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/lib/cmake/boost_iostreams-1.89.0/boost-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/lib/cmake/boost_headers-1.89.0/BoostConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/lib/cmake/boost_headers-1.89.0/boost-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/lib/cmake/boost_graph_parallel-1.89.0/BoostConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/lib/cmake/boost_graph_parallel-1.89.0/boost-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/lib/cmake/boost_graph-1.89.0/BoostConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/lib/cmake/boost_graph-1.89.0/boost-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/lib/cmake/boost_filesystem-1.89.0/BoostConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/lib/cmake/boost_filesystem-1.89.0/boost-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/lib/cmake/boost_fiber-1.89.0/BoostConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/lib/cmake/boost_fiber-1.89.0/boost-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/lib/cmake/boost_exception-1.89.0/BoostConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/lib/cmake/boost_exception-1.89.0/boost-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/lib/cmake/boost_date_time-1.89.0/BoostConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/lib/cmake/boost_date_time-1.89.0/boost-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/lib/cmake/boost_coroutine-1.89.0/BoostConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/lib/cmake/boost_coroutine-1.89.0/boost-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/lib/cmake/boost_contract-1.89.0/BoostConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/lib/cmake/boost_contract-1.89.0/boost-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/lib/cmake/boost_context-1.89.0/BoostConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/lib/cmake/boost_context-1.89.0/boost-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/lib/cmake/boost_container-1.89.0/BoostConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/lib/cmake/boost_container-1.89.0/boost-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/lib/cmake/boost_cobalt_io-1.89.0/BoostConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/lib/cmake/boost_cobalt_io-1.89.0/boost-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/lib/cmake/boost_cobalt-1.89.0/BoostConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/lib/cmake/boost_cobalt-1.89.0/boost-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/lib/cmake/boost_chrono-1.89.0/BoostConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/lib/cmake/boost_chrono-1.89.0/boost-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/lib/cmake/boost_charconv-1.89.0/BoostConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/lib/cmake/boost_charconv-1.89.0/boost-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/lib/cmake/boost_atomic-1.89.0/BoostConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/lib/cmake/boost_atomic-1.89.0/boost-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+    found:
+      path: "/usr/lib/cmake/Boost-1.89.0/BoostConfig.cmake"
+      mode: "config"
+      version: "1.89.0"
+    search_context:
+      ENV{PATH}:
+        - "/home/bogdanoff/.pyenv/shims"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/local/sbin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/usr"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/FindBoost.cmake:538 (find_path)"
+      - "/usr/share/cmake/Modules/FindBoost.cmake:643 (_boost_set_legacy_variables_from_config)"
+      - "CMakeLists.txt:18 (find_package)"
+    mode: "path"
+    variable: "Boost_INCLUDE_DIR"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "boost/version.hpp"
+      - "boost/config.hpp"
+    candidate_directories:
+      - "/usr/include/"
+    found: "/usr/include/"
+    search_context:
+      ENV{PATH}:
+        - "/home/bogdanoff/.pyenv/shims"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/local/sbin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/usr"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+      CMAKE_SYSTEM_INCLUDE_PATH:
+        - "/usr/include/X11"
+...
+
+---
+events:
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineSystem.cmake:12 (find_program)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_UNAME"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "uname"
+    candidate_directories:
+      - "/home/bogdanoff/.pyenv/shims/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+    searched_directories:
+      - "/home/bogdanoff/.pyenv/shims/uname"
+      - "/usr/local/bin/uname"
+    found: "/usr/bin/uname"
+    search_context:
+      ENV{PATH}:
+        - "/home/bogdanoff/.pyenv/shims"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/local/sbin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineSystem.cmake:212 (message)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      The system is: Linux - 6.19.8-arch1-1 - x86_64
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeNinjaFindMake.cmake:5 (find_program)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_MAKE_PROGRAM"
+    description: "Program used to build from build.ninja files."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ninja-build"
+      - "ninja"
+      - "samu"
+    candidate_directories:
+      - "/home/bogdanoff/.pyenv/shims/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+    searched_directories:
+      - "/home/bogdanoff/.pyenv/shims/ninja-build"
+      - "/home/bogdanoff/.pyenv/shims/ninja"
+      - "/home/bogdanoff/.pyenv/shims/samu"
+      - "/usr/local/bin/ninja-build"
+      - "/usr/local/bin/ninja"
+      - "/usr/local/bin/samu"
+      - "/usr/bin/ninja-build"
+    found: "/usr/bin/ninja"
+    search_context:
+      ENV{PATH}:
+        - "/home/bogdanoff/.pyenv/shims"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/local/sbin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "/usr/share/cmake/Modules/"
+    found: "/usr/share/cmake/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "/home/bogdanoff/.pyenv/shims"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/local/sbin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: /usr/bin/g++ 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+      
+      The CXX compiler identification is GNU, found in:
+        /home/bogdanoff/study/FIIT_SP/build/CMakeFiles/4.2.3/CompilerIdCXX/a.out
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_AR"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ar"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/bogdanoff/.pyenv/shims/"
+      - "/usr/local/bin/"
+      - "/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+    found: "/usr/bin/ar"
+    search_context:
+      ENV{PATH}:
+        - "/home/bogdanoff/.pyenv/shims"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/local/sbin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_RANLIB"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ranlib"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/bogdanoff/.pyenv/shims/"
+      - "/usr/local/bin/"
+      - "/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+    found: "/usr/bin/ranlib"
+    search_context:
+      ENV{PATH}:
+        - "/home/bogdanoff/.pyenv/shims"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/local/sbin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_STRIP"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "strip"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/bogdanoff/.pyenv/shims/"
+      - "/usr/local/bin/"
+      - "/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+    found: "/usr/bin/strip"
+    search_context:
+      ENV{PATH}:
+        - "/home/bogdanoff/.pyenv/shims"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/local/sbin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_LINKER"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ld"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/bogdanoff/.pyenv/shims/"
+      - "/usr/local/bin/"
+      - "/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+    found: "/usr/bin/ld"
+    search_context:
+      ENV{PATH}:
+        - "/home/bogdanoff/.pyenv/shims"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/local/sbin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_NM"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "nm"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/bogdanoff/.pyenv/shims/"
+      - "/usr/local/bin/"
+      - "/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+    found: "/usr/bin/nm"
+    search_context:
+      ENV{PATH}:
+        - "/home/bogdanoff/.pyenv/shims"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/local/sbin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_OBJDUMP"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "objdump"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/bogdanoff/.pyenv/shims/"
+      - "/usr/local/bin/"
+      - "/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+    found: "/usr/bin/objdump"
+    search_context:
+      ENV{PATH}:
+        - "/home/bogdanoff/.pyenv/shims"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/local/sbin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_OBJCOPY"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "objcopy"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/bogdanoff/.pyenv/shims/"
+      - "/usr/local/bin/"
+      - "/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+    found: "/usr/bin/objcopy"
+    search_context:
+      ENV{PATH}:
+        - "/home/bogdanoff/.pyenv/shims"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/local/sbin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_READELF"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "readelf"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/bogdanoff/.pyenv/shims/"
+      - "/usr/local/bin/"
+      - "/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+    found: "/usr/bin/readelf"
+    search_context:
+      ENV{PATH}:
+        - "/home/bogdanoff/.pyenv/shims"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/local/sbin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_DLLTOOL"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "dlltool"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/bogdanoff/.pyenv/shims/"
+      - "/usr/local/bin/"
+      - "/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+    searched_directories:
+      - "/usr/bin/dlltool"
+      - "/home/bogdanoff/.pyenv/shims/dlltool"
+      - "/usr/local/bin/dlltool"
+      - "/bin/dlltool"
+      - "/usr/local/sbin/dlltool"
+      - "/usr/bin/site_perl/dlltool"
+      - "/usr/bin/vendor_perl/dlltool"
+      - "/usr/bin/core_perl/dlltool"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "/home/bogdanoff/.pyenv/shims"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/local/sbin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_ADDR2LINE"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "addr2line"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/bogdanoff/.pyenv/shims/"
+      - "/usr/local/bin/"
+      - "/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+    found: "/usr/bin/addr2line"
+    search_context:
+      ENV{PATH}:
+        - "/home/bogdanoff/.pyenv/shims"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/local/sbin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_TAPI"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "tapi"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/bogdanoff/.pyenv/shims/"
+      - "/usr/local/bin/"
+      - "/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+    searched_directories:
+      - "/usr/bin/tapi"
+      - "/home/bogdanoff/.pyenv/shims/tapi"
+      - "/usr/local/bin/tapi"
+      - "/bin/tapi"
+      - "/usr/local/sbin/tapi"
+      - "/usr/bin/site_perl/tapi"
+      - "/usr/bin/vendor_perl/tapi"
+      - "/usr/bin/core_perl/tapi"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "/home/bogdanoff/.pyenv/shims"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/local/sbin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/Compiler/GNU-FindBinUtils.cmake:18 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:207 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_CXX_COMPILER_AR"
+    description: "A wrapper around 'ar' adding the appropriate '--plugin' option for the GCC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "gcc-ar-15.2"
+      - "gcc-ar-15"
+      - "gcc-ar15"
+      - "gcc-ar"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/bogdanoff/.pyenv/shims/"
+      - "/usr/local/bin/"
+      - "/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+    searched_directories:
+      - "/usr/bin/gcc-ar-15.2"
+      - "/home/bogdanoff/.pyenv/shims/gcc-ar-15.2"
+      - "/usr/local/bin/gcc-ar-15.2"
+      - "/bin/gcc-ar-15.2"
+      - "/usr/local/sbin/gcc-ar-15.2"
+      - "/usr/bin/site_perl/gcc-ar-15.2"
+      - "/usr/bin/vendor_perl/gcc-ar-15.2"
+      - "/usr/bin/core_perl/gcc-ar-15.2"
+      - "/usr/bin/gcc-ar-15"
+      - "/home/bogdanoff/.pyenv/shims/gcc-ar-15"
+      - "/usr/local/bin/gcc-ar-15"
+      - "/bin/gcc-ar-15"
+      - "/usr/local/sbin/gcc-ar-15"
+      - "/usr/bin/site_perl/gcc-ar-15"
+      - "/usr/bin/vendor_perl/gcc-ar-15"
+      - "/usr/bin/core_perl/gcc-ar-15"
+      - "/usr/bin/gcc-ar15"
+      - "/home/bogdanoff/.pyenv/shims/gcc-ar15"
+      - "/usr/local/bin/gcc-ar15"
+      - "/bin/gcc-ar15"
+      - "/usr/local/sbin/gcc-ar15"
+      - "/usr/bin/site_perl/gcc-ar15"
+      - "/usr/bin/vendor_perl/gcc-ar15"
+      - "/usr/bin/core_perl/gcc-ar15"
+    found: "/usr/bin/gcc-ar"
+    search_context:
+      ENV{PATH}:
+        - "/home/bogdanoff/.pyenv/shims"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/local/sbin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/Compiler/GNU-FindBinUtils.cmake:30 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:207 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_CXX_COMPILER_RANLIB"
+    description: "A wrapper around 'ranlib' adding the appropriate '--plugin' option for the GCC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "gcc-ranlib-15.2"
+      - "gcc-ranlib-15"
+      - "gcc-ranlib15"
+      - "gcc-ranlib"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/bogdanoff/.pyenv/shims/"
+      - "/usr/local/bin/"
+      - "/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+    searched_directories:
+      - "/usr/bin/gcc-ranlib-15.2"
+      - "/home/bogdanoff/.pyenv/shims/gcc-ranlib-15.2"
+      - "/usr/local/bin/gcc-ranlib-15.2"
+      - "/bin/gcc-ranlib-15.2"
+      - "/usr/local/sbin/gcc-ranlib-15.2"
+      - "/usr/bin/site_perl/gcc-ranlib-15.2"
+      - "/usr/bin/vendor_perl/gcc-ranlib-15.2"
+      - "/usr/bin/core_perl/gcc-ranlib-15.2"
+      - "/usr/bin/gcc-ranlib-15"
+      - "/home/bogdanoff/.pyenv/shims/gcc-ranlib-15"
+      - "/usr/local/bin/gcc-ranlib-15"
+      - "/bin/gcc-ranlib-15"
+      - "/usr/local/sbin/gcc-ranlib-15"
+      - "/usr/bin/site_perl/gcc-ranlib-15"
+      - "/usr/bin/vendor_perl/gcc-ranlib-15"
+      - "/usr/bin/core_perl/gcc-ranlib-15"
+      - "/usr/bin/gcc-ranlib15"
+      - "/home/bogdanoff/.pyenv/shims/gcc-ranlib15"
+      - "/usr/local/bin/gcc-ranlib15"
+      - "/bin/gcc-ranlib15"
+      - "/usr/local/sbin/gcc-ranlib15"
+      - "/usr/bin/site_perl/gcc-ranlib15"
+      - "/usr/bin/vendor_perl/gcc-ranlib15"
+      - "/usr/bin/core_perl/gcc-ranlib15"
+    found: "/usr/bin/gcc-ranlib"
+    search_context:
+      ENV{PATH}:
+        - "/home/bogdanoff/.pyenv/shims"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/local/sbin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "/usr/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "/home/bogdanoff/study/FIIT_SP/build/CMakeFiles/CMakeScratch/TryCompile-tsgvko"
+      binary: "/home/bogdanoff/study/FIIT_SP/build/CMakeFiles/CMakeScratch/TryCompile-tsgvko"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/home/bogdanoff/study/FIIT_SP/build/CMakeFiles/CMakeScratch/TryCompile-tsgvko'
+        
+        Run Build Command(s): /usr/bin/ninja -v cmTC_b7ec3
+        [1/2] /usr/bin/g++   -v -o CMakeFiles/cmTC_b7ec3.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+        Using built-in specs.
+        COLLECT_GCC=/usr/bin/g++
+        Target: x86_64-pc-linux-gnu
+        Configured with: /build/gcc/src/gcc/configure --enable-languages=ada,c,c++,d,fortran,go,lto,m2,objc,obj-c++,rust,cobol --enable-bootstrap --prefix=/usr --libdir=/usr/lib --libexecdir=/usr/lib --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=https://gitlab.archlinux.org/archlinux/packaging/packages/gcc/-/issues --with-build-config=bootstrap-lto --with-linker-hash-style=gnu --with-system-zlib --enable-__cxa_atexit --enable-cet=auto --enable-checking=release --enable-clocale=gnu --enable-default-pie --enable-default-ssp --enable-gnu-indirect-function --enable-gnu-unique-object --enable-libstdcxx-backtrace --enable-link-serialization=1 --enable-linker-build-id --enable-lto --enable-multilib --enable-plugin --enable-shared --enable-threads=posix --disable-libssp --disable-libstdcxx-pch --disable-werror
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 15.2.1 20260209 (GCC) 
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_b7ec3.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_b7ec3.dir/'
+         /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/cc1plus -quiet -v -D_GNU_SOURCE /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_b7ec3.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -o /tmp/ccnNHGA0.s
+        GNU C++17 (GCC) version 15.2.1 20260209 (x86_64-pc-linux-gnu)
+        	compiled by GNU C version 15.2.1 20260209, GMP version 6.3.0, MPFR version 4.2.2, MPC version 1.3.1, isl version isl-0.27-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring nonexistent directory "/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../x86_64-pc-linux-gnu/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../include/c++/15.2.1
+         /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../include/c++/15.2.1/x86_64-pc-linux-gnu
+         /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../include/c++/15.2.1/backward
+         /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include
+         /usr/local/include
+         /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include-fixed
+         /usr/include
+        End of search list.
+        Compiler executable checksum: 5e3969de92aa3c12a625237f01b15b2f
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_b7ec3.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_b7ec3.dir/'
+         as -v --64 -o CMakeFiles/cmTC_b7ec3.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccnNHGA0.s
+        GNU assembler version 2.46 (x86_64-pc-linux-gnu) using BFD version (GNU Binutils) 2.46
+        COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/
+        LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_b7ec3.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_b7ec3.dir/CMakeCXXCompilerABI.cpp.'
+        [2/2] : && /usr/bin/g++  -v -Wl,-v CMakeFiles/cmTC_b7ec3.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_b7ec3   && :
+        Using built-in specs.
+        COLLECT_GCC=/usr/bin/g++
+        COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/lto-wrapper
+        Target: x86_64-pc-linux-gnu
+        Configured with: /build/gcc/src/gcc/configure --enable-languages=ada,c,c++,d,fortran,go,lto,m2,objc,obj-c++,rust,cobol --enable-bootstrap --prefix=/usr --libdir=/usr/lib --libexecdir=/usr/lib --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=https://gitlab.archlinux.org/archlinux/packaging/packages/gcc/-/issues --with-build-config=bootstrap-lto --with-linker-hash-style=gnu --with-system-zlib --enable-__cxa_atexit --enable-cet=auto --enable-checking=release --enable-clocale=gnu --enable-default-pie --enable-default-ssp --enable-gnu-indirect-function --enable-gnu-unique-object --enable-libstdcxx-backtrace --enable-link-serialization=1 --enable-linker-build-id --enable-lto --enable-multilib --enable-plugin --enable-shared --enable-threads=posix --disable-libssp --disable-libstdcxx-pch --disable-werror
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 15.2.1 20260209 (GCC) 
+        COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/
+        LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_b7ec3' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_b7ec3.'
+         /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccs13t1R.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_b7ec3 /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_b7ec3.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crtn.o
+        collect2 version 15.2.1 20260209
+        /usr/bin/ld -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccs13t1R.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_b7ec3 /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_b7ec3.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crtn.o
+        GNU ld (GNU Binutils) 2.46
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_b7ec3' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_b7ec3.'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:217 (message)"
+      - "/usr/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed CXX implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../include/c++/15.2.1]
+          add: [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../include/c++/15.2.1/x86_64-pc-linux-gnu]
+          add: [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../include/c++/15.2.1/backward]
+          add: [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include]
+          add: [/usr/local/include]
+          add: [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include-fixed]
+          add: [/usr/include]
+        end of search list found
+        collapse include dir [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../include/c++/15.2.1] ==> [/usr/include/c++/15.2.1]
+        collapse include dir [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../include/c++/15.2.1/x86_64-pc-linux-gnu] ==> [/usr/include/c++/15.2.1/x86_64-pc-linux-gnu]
+        collapse include dir [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../include/c++/15.2.1/backward] ==> [/usr/include/c++/15.2.1/backward]
+        collapse include dir [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include] ==> [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include]
+        collapse include dir [/usr/local/include] ==> [/usr/local/include]
+        collapse include dir [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include-fixed] ==> [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include-fixed]
+        collapse include dir [/usr/include] ==> [/usr/include]
+        implicit include dirs: [/usr/include/c++/15.2.1;/usr/include/c++/15.2.1/x86_64-pc-linux-gnu;/usr/include/c++/15.2.1/backward;/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include;/usr/local/include;/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include-fixed;/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
+      - "/usr/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
+        ignore line: [Change Dir: '/home/bogdanoff/study/FIIT_SP/build/CMakeFiles/CMakeScratch/TryCompile-tsgvko']
+        ignore line: []
+        ignore line: [Run Build Command(s): /usr/bin/ninja -v cmTC_b7ec3]
+        ignore line: [[1/2] /usr/bin/g++   -v -o CMakeFiles/cmTC_b7ec3.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/usr/bin/g++]
+        ignore line: [Target: x86_64-pc-linux-gnu]
+        ignore line: [Configured with: /build/gcc/src/gcc/configure --enable-languages=ada c c++ d fortran go lto m2 objc obj-c++ rust cobol --enable-bootstrap --prefix=/usr --libdir=/usr/lib --libexecdir=/usr/lib --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=https://gitlab.archlinux.org/archlinux/packaging/packages/gcc/-/issues --with-build-config=bootstrap-lto --with-linker-hash-style=gnu --with-system-zlib --enable-__cxa_atexit --enable-cet=auto --enable-checking=release --enable-clocale=gnu --enable-default-pie --enable-default-ssp --enable-gnu-indirect-function --enable-gnu-unique-object --enable-libstdcxx-backtrace --enable-link-serialization=1 --enable-linker-build-id --enable-lto --enable-multilib --enable-plugin --enable-shared --enable-threads=posix --disable-libssp --disable-libstdcxx-pch --disable-werror]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 15.2.1 20260209 (GCC) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_b7ec3.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_b7ec3.dir/']
+        ignore line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/cc1plus -quiet -v -D_GNU_SOURCE /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_b7ec3.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -o /tmp/ccnNHGA0.s]
+        ignore line: [GNU C++17 (GCC) version 15.2.1 20260209 (x86_64-pc-linux-gnu)]
+        ignore line: [	compiled by GNU C version 15.2.1 20260209  GMP version 6.3.0  MPFR version 4.2.2  MPC version 1.3.1  isl version isl-0.27-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../x86_64-pc-linux-gnu/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../include/c++/15.2.1]
+        ignore line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../include/c++/15.2.1/x86_64-pc-linux-gnu]
+        ignore line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../include/c++/15.2.1/backward]
+        ignore line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include]
+        ignore line: [ /usr/local/include]
+        ignore line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include-fixed]
+        ignore line: [ /usr/include]
+        ignore line: [End of search list.]
+        ignore line: [Compiler executable checksum: 5e3969de92aa3c12a625237f01b15b2f]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_b7ec3.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_b7ec3.dir/']
+        ignore line: [ as -v --64 -o CMakeFiles/cmTC_b7ec3.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccnNHGA0.s]
+        ignore line: [GNU assembler version 2.46 (x86_64-pc-linux-gnu) using BFD version (GNU Binutils) 2.46]
+        ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/]
+        ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_b7ec3.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_b7ec3.dir/CMakeCXXCompilerABI.cpp.']
+        ignore line: [[2/2] : && /usr/bin/g++  -v -Wl -v CMakeFiles/cmTC_b7ec3.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_b7ec3   && :]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/usr/bin/g++]
+        ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/lto-wrapper]
+        ignore line: [Target: x86_64-pc-linux-gnu]
+        ignore line: [Configured with: /build/gcc/src/gcc/configure --enable-languages=ada c c++ d fortran go lto m2 objc obj-c++ rust cobol --enable-bootstrap --prefix=/usr --libdir=/usr/lib --libexecdir=/usr/lib --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=https://gitlab.archlinux.org/archlinux/packaging/packages/gcc/-/issues --with-build-config=bootstrap-lto --with-linker-hash-style=gnu --with-system-zlib --enable-__cxa_atexit --enable-cet=auto --enable-checking=release --enable-clocale=gnu --enable-default-pie --enable-default-ssp --enable-gnu-indirect-function --enable-gnu-unique-object --enable-libstdcxx-backtrace --enable-link-serialization=1 --enable-linker-build-id --enable-lto --enable-multilib --enable-plugin --enable-shared --enable-threads=posix --disable-libssp --disable-libstdcxx-pch --disable-werror]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 15.2.1 20260209 (GCC) ]
+        ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/]
+        ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_b7ec3' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_b7ec3.']
+        link line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccs13t1R.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_b7ec3 /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_b7ec3.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crtn.o]
+          arg [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/collect2] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/liblto_plugin.so] ==> ignore
+          arg [-plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/lto-wrapper] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/ccs13t1R.res] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [--build-id] ==> ignore
+          arg [--eh-frame-hdr] ==> ignore
+          arg [--hash-style=gnu] ==> ignore
+          arg [-m] ==> ignore
+          arg [elf_x86_64] ==> ignore
+          arg [-dynamic-linker] ==> ignore
+          arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+          arg [-pie] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_b7ec3] ==> ignore
+          arg [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/Scrt1.o]
+          arg [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crti.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crti.o]
+          arg [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtbeginS.o]
+          arg [-L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1] ==> dir [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1]
+          arg [-L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib]
+          arg [-L/lib/../lib] ==> dir [/lib/../lib]
+          arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+          arg [-L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../..] ==> dir [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../..]
+          arg [-L/lib] ==> dir [/lib]
+          arg [-L/usr/lib] ==> dir [/usr/lib]
+          arg [-v] ==> ignore
+          arg [CMakeFiles/cmTC_b7ec3.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [-lstdc++] ==> lib [stdc++]
+          arg [-lm] ==> lib [m]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lc] ==> lib [c]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtendS.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtendS.o]
+          arg [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crtn.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crtn.o]
+        ignore line: [collect2 version 15.2.1 20260209]
+        ignore line: [/usr/bin/ld -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccs13t1R.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_b7ec3 /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_b7ec3.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crtn.o]
+        linker tool for 'CXX': /usr/bin/ld
+        collapse obj [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/Scrt1.o] ==> [/usr/lib/Scrt1.o]
+        collapse obj [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crti.o] ==> [/usr/lib/crti.o]
+        collapse obj [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crtn.o] ==> [/usr/lib/crtn.o]
+        collapse library dir [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1] ==> [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1]
+        collapse library dir [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib] ==> [/usr/lib]
+        collapse library dir [/lib/../lib] ==> [/lib]
+        collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+        collapse library dir [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../..] ==> [/usr/lib]
+        collapse library dir [/lib] ==> [/lib]
+        collapse library dir [/usr/lib] ==> [/usr/lib]
+        implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+        implicit objs: [/usr/lib/Scrt1.o;/usr/lib/crti.o;/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtbeginS.o;/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtendS.o;/usr/lib/crtn.o]
+        implicit dirs: [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1;/usr/lib;/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/Internal/CMakeDetermineLinkerId.cmake:38 (message)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
+      - "/usr/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Running the CXX compiler's linker: "/usr/bin/ld" "-v"
+      GNU ld (GNU Binutils) 2.46
+...

@@ -1,6 +1,7 @@
 #ifndef MATH_PRACTICE_AND_OPERATING_SYSTEMS_ALLOCATOR_ALLOCATOR_GLOBAL_HEAP_H
 #define MATH_PRACTICE_AND_OPERATING_SYSTEMS_ALLOCATOR_ALLOCATOR_GLOBAL_HEAP_H
 
+#include <mutex>
 #include <allocator_dbg_helper.h>
 #include <pp_allocator.h>
 
@@ -12,6 +13,7 @@ class allocator_global_heap final:
 private:
 
     static constexpr const size_t size_t_size = sizeof(size_t);
+    mutable std::mutex _mutex;
 
 public:
     
