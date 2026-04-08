@@ -1,7 +1,0 @@
-{
-	"InstallScripts" : 
-	[
-		"/home/bogdanoff/study/FIIT_SP/build-check/_deps/googletest-subbuild/cmake_install.cmake"
-	],
-	"Parallel" : false
-}

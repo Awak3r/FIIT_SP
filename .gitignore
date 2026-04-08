@@ -38,3 +38,7 @@ cmake-build-*
 
 # cmake-build-debug directory
 cmake-build-debug/
+
+# Local build artifacts
+build/
+build-check/
