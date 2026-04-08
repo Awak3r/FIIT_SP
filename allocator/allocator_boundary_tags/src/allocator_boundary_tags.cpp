@@ -56,21 +56,18 @@ allocator_boundary_tags &allocator_boundary_tags::operator=(
     {
         return *this;
     }
-
     std::mutex* this_mtx = nullptr;
     if (_trusted_memory != nullptr)
     {
         char* this_base = reinterpret_cast<char*>(_trusted_memory);
         this_mtx = reinterpret_cast<std::mutex*>(this_base + mutex_off);
     }
-
     std::mutex* other_mtx = nullptr;
     if (other._trusted_memory != nullptr)
     {
         char* other_base = reinterpret_cast<char*>(other._trusted_memory);
         other_mtx = reinterpret_cast<std::mutex*>(other_base + mutex_off);
     }
-
     void* old_memory = nullptr;
     if (this_mtx != nullptr && other_mtx != nullptr && this_mtx != other_mtx)
     {
@@ -99,7 +96,6 @@ allocator_boundary_tags &allocator_boundary_tags::operator=(
         _trusted_memory = other._trusted_memory;
         other._trusted_memory = nullptr;
     }
-
     if (old_memory != nullptr)
     {
         char* old_base = reinterpret_cast<char*>(old_memory);
