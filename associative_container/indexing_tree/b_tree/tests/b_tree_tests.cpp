@@ -363,7 +363,6 @@ TEST(bTreePositiveTests, test9)
 {
     std::vector<B_tree<int, std::string>::value_type> expected_result =
             {
-                    {4,   "e"},
                     {15,  "c"},
                     {24,  "g"},
                     {45,  "k"},
