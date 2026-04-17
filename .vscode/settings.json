@@ -1,13 +1,6 @@
 {
-  "C_Cpp.intelliSenseEngine": "disabled",
-  "clangd.arguments": [
-    "--compile-commands-dir=${workspaceFolder}/build",
-    "--background-index",
-    "--header-insertion=never",
-    "--clang-tidy=false"
-  ],
-  "clangd.fallbackFlags": [
-    "-std=c++23"
-  ],
+  "C_Cpp.default.compilerPath": "/usr/bin/g++",
+  "C_Cpp.default.cppStandard": "c++23",
+  "C_Cpp.default.compileCommands": "${workspaceFolder}/build/compile_commands.json",
   "editor.formatOnSave": true
 }

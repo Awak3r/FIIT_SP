@@ -3,11 +3,6 @@
 #include <memory>
 #include <stdexcept>
 
-constexpr size_t parent_off = 0;
-constexpr size_t mode_off = parent_off + sizeof(std::pmr::memory_resource*);
-constexpr size_t power_off = mode_off + sizeof(allocator_with_fit_mode::fit_mode);
-constexpr size_t mutex_off = power_off + sizeof(unsigned char);
-
 allocator_buddies_system::~allocator_buddies_system()
 {
     if (_trusted_memory == nullptr)
@@ -210,7 +205,6 @@ allocator_buddies_system::allocator_buddies_system(
     }
     auto* md = reinterpret_cast<block_metadata*>(chosen);
     md->occupied = true;
-    *reinterpret_cast<void**>(chosen + sizeof(block_metadata)) = _trusted_memory;
     return chosen + occupied_block_metadata_size;
 }
 
@@ -232,36 +226,56 @@ void allocator_buddies_system::do_deallocate_sm(void *at)
         throw std::invalid_argument("");
     }
     char* block = payload - occupied_block_metadata_size;
-    auto* md = reinterpret_cast<block_metadata*>(block);
-    if (!md->occupied)
+    block_metadata* md = nullptr;
+    bool found = false;
+    char* cursor = region_begin;
+    while (cursor < region_end)
+    {
+        auto* cur_md = reinterpret_cast<block_metadata*>(cursor);
+        const size_t cur_block_size = static_cast<size_t>(1) << cur_md->size;
+        if (cursor == block)
+        {
+            md = cur_md;
+            found = true;
+            break;
+        }
+        cursor += cur_block_size;
+    }
+    if (!found || md == nullptr)
     {
         throw std::invalid_argument("");
     }
-    if (*reinterpret_cast<void**>(block + sizeof(block_metadata)) != _trusted_memory)
+    const size_t rel = static_cast<size_t>(block - region_begin);
+    const size_t block_size = static_cast<size_t>(1) << md->size;
+    if (rel % block_size != 0)
+    {
+        throw std::invalid_argument("");
+    }
+    if (!md->occupied)
     {
         throw std::invalid_argument("");
     }
     md->occupied = false;
     unsigned char cur_k = md->size;
-    size_t rel = static_cast<size_t>(block - region_begin);
+    size_t merge_rel = rel;
     while (cur_k < max_k)
     {
         const size_t cur_sz = static_cast<size_t>(1) << cur_k;
-        const size_t buddy_rel = rel ^ cur_sz;
+        const size_t buddy_rel = merge_rel ^ cur_sz;
         char* buddy_ptr = region_begin + buddy_rel;
         auto* buddy_md = reinterpret_cast<block_metadata*>(buddy_ptr);
         if (buddy_md->occupied || buddy_md->size != cur_k)
         {
             break;
         }
-        if (buddy_rel < rel)
+        if (buddy_rel < merge_rel)
         {
-            rel = buddy_rel;
+            merge_rel = buddy_rel;
             block = buddy_ptr;
             md = buddy_md;
         }
         cur_k = static_cast<unsigned char>(cur_k + 1);
-        md = reinterpret_cast<block_metadata*>(region_begin + rel);
+        md = reinterpret_cast<block_metadata*>(region_begin + merge_rel);
         md->occupied = false;
         md->size = cur_k;
     }

@@ -236,6 +236,8 @@ allocator_sorted_list::allocator_sorted_list(const allocator_sorted_list &other)
         return;
     }
     char* other_base = reinterpret_cast<char*>(other._trusted_memory);
+    auto* other_mtx = reinterpret_cast<std::mutex*>(other_base + mutex_off);
+    std::lock_guard<std::mutex> lock(*other_mtx);
     auto* other_parent = *reinterpret_cast<std::pmr::memory_resource**>(other_base + parent_off);
     auto other_mode = *reinterpret_cast<allocator_with_fit_mode::fit_mode*>(other_base + mode_off);
     size_t other_managed = *reinterpret_cast<size_t*>(other_base + managed_off);

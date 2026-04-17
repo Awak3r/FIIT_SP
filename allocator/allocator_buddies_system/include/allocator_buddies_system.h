@@ -6,9 +6,15 @@
 #include <allocator_with_fit_mode.h>
 #include <mutex>
 #include <cmath>
+#include <cstddef>
 
 namespace __detail
 {
+    constexpr size_t align_up(size_t value, size_t alignment) noexcept
+    {
+        return (value + alignment - 1) & ~(alignment - 1);
+    }
+
     constexpr size_t nearest_greater_k_of_2(size_t size) noexcept
     {
         int ones_counter = 0, index = -1;
@@ -46,17 +52,21 @@ private:
 
     void *_trusted_memory;
 
-    /**
-     * TODO: You must improve it for alignment support
-     */
+    static constexpr const size_t parent_off = 0;
 
-    static constexpr const size_t allocator_metadata_size = sizeof(allocator_dbg_helper*) + sizeof(fit_mode) + sizeof(unsigned char) + sizeof(std::mutex);
+    static constexpr const size_t mode_off = __detail::align_up(parent_off + sizeof(std::pmr::memory_resource*), alignof(fit_mode));
 
-    static constexpr const size_t occupied_block_metadata_size = sizeof(block_metadata) + sizeof(void*);
+    static constexpr const size_t power_off = __detail::align_up(mode_off + sizeof(fit_mode), alignof(unsigned char));
+
+    static constexpr const size_t mutex_off = __detail::align_up(power_off + sizeof(unsigned char), alignof(std::mutex));
+
+    static constexpr const size_t allocator_metadata_size = __detail::align_up(mutex_off + sizeof(std::mutex), alignof(std::max_align_t));
+
+    static constexpr const size_t occupied_block_metadata_size = __detail::align_up(sizeof(block_metadata), alignof(void*));
 
     static constexpr const size_t free_block_metadata_size = sizeof(block_metadata);
 
-    static constexpr const size_t min_k = __detail::nearest_greater_k_of_2(occupied_block_metadata_size);
+    static constexpr const size_t min_k = __detail::nearest_greater_k_of_2(sizeof(allocator_dbg_helper::block_pointer_t) + 1);
 
 public:
 

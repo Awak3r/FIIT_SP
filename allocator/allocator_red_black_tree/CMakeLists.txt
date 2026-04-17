@@ -17,3 +17,12 @@ target_link_libraries(
         sys_prog_allctr_allctr_rb_tr
         PUBLIC
         sys_prog_allctr_allctr)
+
+add_executable(
+        sys_prog_allctr_allctr_rb_tr_demo
+        demo/allocator_red_black_tree_demo.cpp)
+
+target_link_libraries(
+        sys_prog_allctr_allctr_rb_tr_demo
+        PRIVATE
+        sys_prog_allctr_allctr_rb_tr)
